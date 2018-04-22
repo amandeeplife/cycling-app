@@ -13,6 +13,7 @@ import java.util.List;
 public class Resource {
     private static Resource resource = new Resource();
     private static List<User> users;
+    private static User currentUser;
 
     private Resource() {
         users = new LinkedList<User>();
@@ -28,5 +29,13 @@ public class Resource {
 
     public static List<User> getUsers() {
         return users;
+    }
+
+    public static void setCurrentUser(User user) {
+        currentUser = user;
+    }
+
+    public static User getCurrentUser(){
+        return currentUser;
     }
 }

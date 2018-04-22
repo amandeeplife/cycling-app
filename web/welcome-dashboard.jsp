@@ -6,10 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -412,10 +408,10 @@
                                     <div style="margin: auto; width: 70%">
                                         Please Fill the following information if you would like to create an
                                         Event!<br><br>
-                                        Event Title : <input type="text" class="form-control" id="inputWarning"><br>
-                                        Starting :<input type="text" class="form-control" id="inputWarning"><br>
-                                        Via :<input type="text" class="form-control" id="inputWarning"><br>
-                                        Desitination :<input type="text" class="form-control" id="inputWarning"><br>
+                                        Event Title : <input type="text" class="form-control" id="inputWarning1"><br>
+                                        Starting :<input type="text" class="form-control" id="inputWarning2"><br>
+                                        Via :<input type="text" class="form-control" id="inputWarning3"><br>
+                                        Desitination :<input type="text" class="form-control" id="inputWarning4"><br>
                                         Discription : <textarea class="form-control" rows="3"></textarea><br>
                                         Event date : <input id="date" type="date"><br>
                                     </div>
@@ -1034,9 +1030,9 @@
     <script src="Res/vendor/morrisjs/morris.min.js"></script>
     <script src="Res/data/morris-data.js"></script>
 
-<!-- Custom Theme JavaScript -->
+    <!-- Custom Theme JavaScript -->
+</div>
 <script src="Res/dist/js/sb-admin-2.js"></script>
-
 </body>
 
 </html>
