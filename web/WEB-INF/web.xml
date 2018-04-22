@@ -6,8 +6,4 @@
     <welcome-file-list>
         <welcome-file>welcome-dashboard.jsp</welcome-file>
     </welcome-file-list>
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>controller.LoginController</servlet-class>
-    </servlet>
 </web-app>
