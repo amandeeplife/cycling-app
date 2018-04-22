@@ -27,6 +27,13 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
         this.dob = dob;
+        createdEvents.add(new Event("Cycle challenge", "Fairfield",
+                "Chicago", "Ottumuwa", new Date(), "This is gonna be big challenge. Challenge yourself !"));
+        createdEvents.add(new Event("Be healthy with cycling", "San Francisco",
+                "New York", "Chicago", new Date(), "This is gonna be big challenge. Challenge yourself !"));
+
+        subscribedEvents.add(new Event("For the good life", "Washington", "Texas", "San Francisco",
+                new Date(), "This is gonna be big challenge. Challenge yourself !"));
     }
 
     public String getUsername() {

@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Event {
-    public Event(){}
+
     private String tittle;
     private Date createdTime = new Date();
     private String from;
@@ -19,27 +19,47 @@ public class Event {
     private Date startingDate;
     private String desciption;
     private List<User> subscribers = new ArrayList<>();
-    public void setTittle(String title){
-        this.tittle = title;
+
+    public Event() {
     }
-    public void setFrom(String from){
+
+    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption) {
+        this.tittle = tittle;
         this.from = from;
-    }
-    public void setTo(String to){
-        this.to = to;
-    }
-    public void setVia(String via){
         this.via = via;
-    }
-    public void setDiscription(String desciption){
+        this.to = to;
+        this.startingDate = startingDate;
         this.desciption = desciption;
     }
-    public void setStartingDate(Date date){
+
+    public void setTittle(String title) {
+        this.tittle = title;
+    }
+
+    public void setFrom(String from) {
+        this.from = from;
+    }
+
+    public void setTo(String to) {
+        this.to = to;
+    }
+
+    public void setVia(String via) {
+        this.via = via;
+    }
+
+    public void setDiscription(String desciption) {
+        this.desciption = desciption;
+    }
+
+    public void setStartingDate(Date date) {
         this.startingDate = date;
     }
-    public void addSubscibers(User user){
+
+    public void addSubscibers(User user) {
         subscribers.add(user);
     }
+
     public String getTittle() {
         return tittle;
     }
