@@ -1,4 +1,5 @@
-<%@ page import="model.Event" %><%--
+<%@ page import="model.Event" %>
+<%@ page import="model.User" %><%--
   Created by IntelliJ IDEA.
   User: Amanuel
   Date: 4/21/2018
@@ -25,7 +26,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content=""
+    >
     <meta name="author" content="">
 
 
@@ -59,16 +61,8 @@
 
 <%
 
-    Event[] evArray   = new Event[5];
-    Event ev = new Event();
-    ev.setDiscription("This is sample discription");
-    ev.setTittle("Sample Ride Title");
-    evArray[3] = ev;
-    evArray[2] = ev;
-    evArray[1] = ev;
-    evArray[0] = ev;
-    evArray[4] = ev;
-    session.setAttribute("evArray",evArray);
+
+
 
 %>
 <%
@@ -433,8 +427,8 @@ if(session.getAttribute("currentUser")==null){
             <!-- /.row -->
             <div id ="ownEvents" class="row">
 
-
-                    <c:forEach items="${evArray}" var="event" varStatus="loop">
+                ${(sessionScope.currentUser).createdEvents}
+                    <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
                         <div class="col-lg-3 col-md-6">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
