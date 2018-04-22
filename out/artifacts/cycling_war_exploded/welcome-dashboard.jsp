@@ -7,6 +7,10 @@
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -49,8 +53,8 @@
 
 
 <%
-if(session.getAttribute("currentUser")==null){
-  //  response.sendRedirect("login.html");
+if(session.getAttribute("user")==null){
+    response.sendRedirect("login.html");
 }
 
 %>
@@ -418,10 +422,10 @@ if(session.getAttribute("currentUser")==null){
                                     <div style="margin: auto; width: 70%">
                                         Please Fill the following information if you would like to create an
                                         Event!<br><br>
-                                        Event Title : <input type="text" class="form-control" id="inputWarning1"><br>
-                                        Starting :<input type="text" class="form-control" id="inputWarning2"><br>
-                                        Via :<input type="text" class="form-control" id="inputWarning3"><br>
-                                        Desitination :<input type="text" class="form-control" id="inputWarning4"><br>
+                                        Event Title : <input type="text" class="form-control" id="inputWarning"><br>
+                                        Starting :<input type="text" class="form-control" id="inputWarning"><br>
+                                        Via :<input type="text" class="form-control" id="inputWarning"><br>
+                                        Desitination :<input type="text" class="form-control" id="inputWarning"><br>
                                         Discription : <textarea class="form-control" rows="3"></textarea><br>
                                         Event date : <input id="date" type="date"><br>
                                     </div>
@@ -1040,9 +1044,9 @@ if(session.getAttribute("currentUser")==null){
     <script src="Res/vendor/morrisjs/morris.min.js"></script>
     <script src="Res/data/morris-data.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-</div>
+<!-- Custom Theme JavaScript -->
 <script src="Res/dist/js/sb-admin-2.js"></script>
+
 </body>
 
 </html>
