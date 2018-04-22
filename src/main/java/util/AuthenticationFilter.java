@@ -8,7 +8,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebServlet("/*")
-public class RequestLoggingFilter implements Filter {
+public class AuthenticationFilter implements Filter {
     private ServletContext context;
 
     @Override
