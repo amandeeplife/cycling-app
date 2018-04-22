@@ -231,7 +231,7 @@ if(session.getAttribute("currentUser")==null){
                     <li>
                         <a href="#">
                             <div>
-                                <i class="fa fa-comment fa-fw"></i> New Comment
+                                <i class="fa fa-support"></i> New Comment
                                 <span class="pull-right text-muted small">4 minutes ago</span>
                             </div>
                         </a>
@@ -333,8 +333,12 @@ if(session.getAttribute("currentUser")==null){
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
+                        <a href="liveevents.jsp"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
+                    </li>
+                    <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
                     </li>
+
                     <li>
                         <a href="pages/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                     </li>
@@ -397,7 +401,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="blank.html">Blank Page</a>
+                                <a href="welcome.jsp">Blank Page</a>
                             </li>
                             <li>
                                 <a href="login.html">Login Page</a>
@@ -417,7 +421,7 @@ if(session.getAttribute("currentUser")==null){
             <div class="col-lg-12">
                 <h1 class="page-header">Dashboard</h1>
                 <button class="btn btn-success" style="float: right" data-toggle="modal" data-target="#myModal">
-                    Create Event
+                    Create Cycling Event
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -471,7 +475,7 @@ if(session.getAttribute("currentUser")==null){
                             <div class="panel-heading">
                                 <div class="row">
                                     <div class="col-xs-3">
-                                        <i class="fa fa-comments fa-5x"></i>
+                                        <i class="fa fa-support fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">26</div>
@@ -651,7 +655,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <span class="pull-right"><i class="fa fa-support"></i></span>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -673,7 +677,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <span class="pull-right"><i class="fa fa-support"></i></span>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -681,63 +685,8 @@ if(session.getAttribute("currentUser")==null){
                 </div>
             </div>
             <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle"
-                                            data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle"
-                                            data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
+
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="row">
@@ -824,6 +773,32 @@ if(session.getAttribute("currentUser")==null){
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <ul class="timeline">
+
+
+                                <li>
+                                    <div class="timeline-badge"><i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                            <p>
+                                                <small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via
+                                                    Twitter
+                                                </small>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>This is my time line Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+                                                laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia
+                                                pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas
+                                                suscipit facere rem dicta, debitis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+
                                 <li>
                                     <div class="timeline-badge"><i class="fa fa-check"></i>
                                     </div>
@@ -968,7 +943,7 @@ if(session.getAttribute("currentUser")==null){
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <i class="fa fa-support"></i> New Comment
                                     <span class="pull-right text-muted small"><em>4 minutes ago</em>
                                     </span>
                                 </a>
