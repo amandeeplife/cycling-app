@@ -33,23 +33,24 @@
         <div id="login">
             <form class="form" action="/login" method="post">
                 <p class="fieldset">
-                    <label class="image-replace email" for="signin-email">E-mail</label>
-                    <input class="full-width has-padding has-border" id="signin-email" type="email"
-                           placeholder="E-mail" name="username">
-                    <!--  <span class="error-message">An account with this email address does not exist!</span> -->
+                    <label class="image-replace email" for="signin-email1">E-mail</label>
+                    <input class="full-width has-padding has-border" id="signin-email1"
+                           type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                           placeholder="E-mail" name="username"
+                           title="Wrong email filling">
                 </p>
 
                 <p class="fieldset">
                     <label class="image-replace password" for="signin-password">Password</label>
                     <input class="full-width has-padding has-border" name="password" id="signin-password"
-                           type="password"
-                           placeholder="Password">
-                    <a href="#0" class="hide-password">Show</a>
-                    <span class="error-message">Wrong password! Try again.</span>
+                           type="password" pattern="[A-z0-9]{2,}"
+                           placeholder="Password"
+                           title="Must contain at least 2 or more characters">
+                    <a class="hide-password">Show</a>
                 </p>
 
                 <p class="fieldset">
-                    <input type="checkbox" id="remember-me" checked>
+                    <input type="radio" id="remember-me" name="rememberme">
                     <label for="remember-me">Remember me</label>
                 </p>
 
@@ -58,7 +59,7 @@
                 </p>
             </form>
 
-            <p class="form-bottom-message"><a href="#0">Forgot your password?</a></p>
+            <p class="form-bottom-message"><a>Forgot your password?</a></p>
             <!-- <a href="#0" class="close-form">Close</a> -->
         </div>
 
@@ -84,21 +85,25 @@
                 </p>
 
                 <p class="fieldset">
-                    <label class="image-replace email">E-mail</label>
-                    <input class="full-width has-padding has-border" type="text"
-                           placeholder="E-mail" name="userName">
+                    <label class="image-replace email" for="signin-email">E-mail</label>
+                    <input class="full-width has-padding has-border" id="signin-email"
+                           type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+                           placeholder="E-mail" name="username"
+                           title="Wrong email filling">
                 </p>
 
                 <p class="fieldset">
-                    <label class="image-replace password" for="signup-password">Password</label>
-                    <input class="full-width has-padding has-border" id="signup-password" type="password"
-                           placeholder="Password" name="password">
-                    <a href="#0" class="hide-password">Show</a>
-                    <span class="error-message">Your password has to be at least 6 characters long!</span>
+                    <label class="image-replace password" for="signin-password">Password</label>
+                    <input class="full-width has-padding has-border" name="password" id="signin-password1"
+                           type="password" pattern="[A-z0-9]{2,}"
+                           placeholder="Password"
+                           title="Must contain at least 2 or more characters">
+                    <a class="hide-password">Show</a>
                 </p>
 
                 <p class="fieldset">
-                    <button class="full-width has-padding" type="submit">Create account</button>
+                    <button type="submit" class="full-width btn btn-success">Create account</button>
+                    <%--<button class="full-width" type="submit" value="submit"></button>--%>
                 </p>
             </form>
 
@@ -113,7 +118,6 @@
                 <p class="fieldset">
                     <label class="image-replace email" for="reset-email">E-mail</label>
                     <input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
-                    <!-- <span class="error-message">An account with this email does not exist!</span> -->
                 </p>
 
                 <p class="fieldset">
