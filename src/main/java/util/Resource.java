@@ -20,7 +20,6 @@ public class Resource {
         users = new LinkedList<>();
         users.add(new User("bakhodir@gmail.com", "10", "Bakhodir", "Boydedaev", new Date()));
         users.add(new User("emanuel@gmail.com", "10", "Emanuel", "Mulat", new Date()));
-        users.add(new User("edward@gmail.com", "10", "Edward", "Tanko", new Date()));
     }
 
     public static Resource getInstance() {
