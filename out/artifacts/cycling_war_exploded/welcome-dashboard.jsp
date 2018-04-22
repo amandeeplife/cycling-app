@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page import="model.Event" %>
 <%@ page import="model.User" %><%--
   Created by IntelliJ IDEA.
@@ -353,7 +354,7 @@ if(session.getAttribute("currentUser")==null){
                                 <a href="pages/notifications.html">Notifications</a>
                             </li>
                             <li>
-                                <a href="pages/typography.html">Typography</a>
+                                <a href="Res/pages/typography.html">Typography</a>
                             </li>
                             <li>
                                 <a href="pages/icons.html"> Icons</a>
@@ -427,17 +428,18 @@ if(session.getAttribute("currentUser")==null){
             <!-- /.row -->
             <div id ="ownEvents" class="row">
 
-                ${(sessionScope.currentUser).createdEvents}
                     <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
                         <div class="col-lg-3 col-md-6">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
+                                <div><h3 style="color: yellow">${sessionScope.currentUser.event.tittle}</h3></div>
                                 <div class="row">
                                     <div class="col-xs-3">
                                         <i class="fa fa-support fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">26</div>
+                                        <div class="huge">
+                                        </div>
                                         <div>${event.desciption}</div>
 
                                     </div>

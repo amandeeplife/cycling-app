@@ -438,7 +438,7 @@ if(session.getAttribute("currentUser")==null){
                                         <i class="fa fa-support fa-5x"></i>
                                     </div>
                                     <div class="col-xs-9 text-right">
-                                        <div class="huge">                                        <div class="huge">${event.subscribers.length}</div>
+                                        <div class="huge">
                                         </div>
                                         <div>${event.desciption}</div>
 
