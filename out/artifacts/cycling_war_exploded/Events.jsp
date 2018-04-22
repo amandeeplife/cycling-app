@@ -293,10 +293,10 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="Events.jsp">Subscribed Events</a>
+                                <a href="events.jsp">Subscribed Events</a>
                             </li>
                             <li>
-                                <a href="Events.jsp">Your Events</a>
+                                <a href="events.jsp">Your Events</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -705,16 +705,16 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="Res/vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="Res/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script src="Res/vendor/metisMenu/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="../dist/js/sb-admin-2.js"></script>
+<script src="Res/dist/js/sb-admin-2.js"></script>
 
 </body>
 

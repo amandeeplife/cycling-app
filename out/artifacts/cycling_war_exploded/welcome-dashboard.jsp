@@ -5,6 +5,7 @@
   Time: 8:06 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -20,6 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
@@ -48,6 +50,14 @@
 </head>
 
 <body>
+
+
+<%
+if(session.getAttribute("user")==null){
+    response.sendRedirect("login.html");
+}
+
+%>
 
 <div id="wrapper">
 
@@ -300,10 +310,10 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="Events.jsp">Subscribed Events</a>
+                                <a href="events.jsp">Subscribed Events</a>
                             </li>
                             <li>
-                                <a href="Events.jsp">Your Events</a>
+                                <a href="events.jsp">Your Events</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -1034,8 +1044,8 @@
     <script src="Res/vendor/morrisjs/morris.min.js"></script>
     <script src="Res/data/morris-data.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="Res/dist/js/sb-admin-2.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="Res/dist/js/sb-admin-2.js"></script>
 
 </body>
 
