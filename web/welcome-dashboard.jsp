@@ -37,7 +37,7 @@
 
     <!-- Custom Fonts -->
     <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -410,13 +410,6 @@
                                 Discription : <textarea   class="form-control" rows="3"></textarea><br>
                                 Event date : <input id="date" type="date"><br>
                                  </div>
-
-
-
-
-
-
-                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                 <input type="submit" value="Save Changes" class="btn btn-primary" data-dismiss="modal">
