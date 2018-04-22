@@ -8,7 +8,7 @@ import java.util.List;
 /*
  Created by: Amenuel, Bakhodir.
 
- Purpose: It works as a database that provides sample information
+ Purpose: It works as a database that provides information
  */
 public class Resource {
     private static Resource resource = new Resource();
