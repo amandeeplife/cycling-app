@@ -9,6 +9,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JavaScript/dashboard.js"></script>
     <title>Title</title>
 </head>
 <!DOCTYPE html>
@@ -444,7 +446,7 @@ if(session.getAttribute("currentUser")==null){
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close
                                         </button>
-                                        <input type="submit" value="Save Changes" class="btn btn-primary"
+                                        <input id="saveEvent" type="submit" value="Save Changes" class="btn btn-primary"
                                                data-dismiss="modal">
                                     </div>
                                 </form>
@@ -460,7 +462,7 @@ if(session.getAttribute("currentUser")==null){
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="row">
+            <div id ="ownEvents" class="row">
 
 
                     <c:forEach items="${evArray}" var="event" varStatus="loop">
@@ -480,9 +482,148 @@ if(session.getAttribute("currentUser")==null){
                             </div>
                             <a href="#">
                                 <div class="panel-footer">
-                                    <button type="button" class="btn btn-primary">Modify</button>
-                                    <button type="button" class="btn btn-info">View</button>
-                                    <button type="button" class="btn btn-danger">Delete</button>
+
+
+
+
+
+
+                                    <button  style="margin: 0 2px" class="btn btn-primary" style="float: right" data-toggle="modal" data-target="#myModal">
+                                        Modify
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Create Your Event</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; width: 70%">
+                                                            Please Fill the following information if you would like to create an
+                                                            Event!<br><br>
+                                                            Event Title : <input type="text" class="form-control" ><br>
+                                                            Starting :<input type="text" class="form-control" ><br>
+                                                            Via :<input type="text" class="form-control" ><br>
+                                                            Desitination :<input type="text" class="form-control" ><br>
+                                                            Discription : <textarea class="form-control" rows="3"></textarea><br>
+                                                            Event date : <input  type="date"><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                                            </button>
+                                                            <input id="saveEvent" type="submit" value="Save Changes" class="btn btn-primary"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+
+
+
+
+
+
+                                    <button style="margin: 0 2px"  class="btn btn-info" style="float: right" data-toggle="modal" data-target="#myModal">
+                                        View
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Create Your Event</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; width: 70%">
+                                                            Please Fill the following information if you would like to create an
+                                                            Event!<br><br>
+                                                            Event Title : <input type="text" class="form-control" ><br>
+                                                            Starting :<input type="text" class="form-control" ><br>
+                                                            Via :<input type="text" class="form-control" ><br>
+                                                            Desitination :<input type="text" class="form-control" ><br>
+                                                            Discription : <textarea class="form-control" rows="3"></textarea><br>
+                                                            Event date : <input  type="date"><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                                            </button>
+                                                            <input  type="submit" value="Save Changes" class="btn btn-primary"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                    <button style="margin: 0 2px" class="btn btn-danger" style="float: right" data-toggle="modal" data-target="#delete">
+                                        Delete
+                                    </button>
+                                    <!-- Modal -->
+                                    <div id="delete" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Confirmation</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; font-size:15px; width: 70%">
+                                                           Are you sure you want to delete ? <br><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel
+                                                            </button>
+                                                            <input  type="submit" value="Yes" class="btn btn-danger"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
                                     <div class="clearfix"></div>
                                 </div>
                             </a>
