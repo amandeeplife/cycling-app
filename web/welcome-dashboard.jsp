@@ -401,7 +401,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="welcome.jsp">Blank Page</a>
+                                <a href="createEvent.jsp">Blank Page</a>
                             </li>
                             <li>
                                 <a href="login.html">Login Page</a>
@@ -420,48 +420,9 @@ if(session.getAttribute("currentUser")==null){
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Dashboard</h1>
-                <button class="btn btn-success" style="float: right" data-toggle="modal" data-target="#myModal">
-                    Create Cycling Event
-                </button>
+                <<input type="submit" onclick="window.location.href='/createEvent.jsp'" id="" class="btn btn-success" style="float: right" id="createEvent" value = " Create Cycling Event!">
                 <!-- Modal -->
-                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                     aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
-                                </button>
-                                <h4 class="modal-title" id="myModalLabel">Create Your Event</h4>
-                            </div>
-                            <div class="modal-body">
 
-                                <form>
-
-                                    <div style="margin: auto; width: 70%">
-                                        Please Fill the following information if you would like to create an
-                                        Event!<br><br>
-                                        Event Title : <input type="text" class="form-control" id="inputWarning"><br>
-                                        Starting :<input type="text" class="form-control" id="inputWarning"><br>
-                                        Via :<input type="text" class="form-control" id="inputWarning"><br>
-                                        Desitination :<input type="text" class="form-control" id="inputWarning"><br>
-                                        Discription : <textarea class="form-control" rows="3"></textarea><br>
-                                        Event date : <input id="date" type="date"><br>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
-                                        </button>
-                                        <input id="saveEvent" type="submit" value="Save Changes" class="btn btn-primary"
-                                               data-dismiss="modal">
-                                    </div>
-                                </form>
-                            </div>
-                            <!-- /.modal-content -->
-                        </div>
-
-                        <!-- /.modal-dialog -->
-                    </div>
-                    <br><br>
-                </div>
                 <br><br>
                 <!-- /.col-lg-12 -->
             </div>

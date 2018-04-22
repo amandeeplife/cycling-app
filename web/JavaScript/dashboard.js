@@ -39,4 +39,11 @@ function eventPostSucces() {
 function eventPostError() {
         console.log("eventPostError")
     }
+
+
+    $(function(){
+        $("#googleMap").load("welcome.jsp");
+    });
+
+
 })
