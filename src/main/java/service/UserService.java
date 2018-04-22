@@ -45,4 +45,12 @@ public class UserService {
         if (resultList.size() != 1) throw new IllegalStateException();
         return resultList.get(0);
     }
+
+    public User getUserByName(String username, String password) {
+        List<User> resultList = this.users.stream().filter(u -> u.getUsername().equals(username)
+                && u.getPassword().equals(password)).
+                collect(Collectors.toList());
+        if (resultList.size() != 1) return null;
+        return resultList.get(0);
+    }
 }

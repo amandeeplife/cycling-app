@@ -6,7 +6,7 @@ package controller;
  Purpose: Catches requests with URL = "/login" that come from front end
  */
 
-import service.UserService;
+import service.AuthService;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,18 +15,18 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet("/login")
-class LoginController extends HttpServlet {
-    private UserService userService    = new UserService();
+public class LoginController extends HttpServlet {
+    private AuthService authService;
 
-
-
-
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-
+    public LoginController() {
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-        this.userService.getAll();
+    @Override
+    public void init() {
+        authService = new AuthService();
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+        this.authService.login(request, response);
     }
 }
