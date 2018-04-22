@@ -1,4 +1,4 @@
-<%--
+<%@ page import="model.Event" %><%--
   Created by IntelliJ IDEA.
   User: Amanuel
   Date: 4/21/2018
@@ -51,12 +51,24 @@
 
 <body>
 
-
 <%
-if(session.getAttribute("user")==null){
-    response.sendRedirect("login.html");
-}
 
+    Event[] evArray   = new Event[5];
+    Event ev = new Event();
+    ev.setDiscription("This is sample discription");
+    ev.setTittle("Sample Ride Title");
+    evArray[3] = ev;
+    evArray[2] = ev;
+    evArray[1] = ev;
+    evArray[0] = ev;
+    evArray[4] = ev;
+    session.setAttribute("evArray",evArray);
+
+%>
+<%
+if(session.getAttribute("currentUser")==null){
+  //  response.sendRedirect("login.html");
+}
 %>
 
 <div id="wrapper">
@@ -449,52 +461,39 @@ if(session.getAttribute("user")==null){
             </div>
             <!-- /.row -->
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
 
+
+                    <c:forEach items="${evArray}" var="event" varStatus="loop">
+                        <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-comments fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">26</div>
+                                        <div>${event.desciption}</div>
+
+                                    </div>
                                 </div>
                             </div>
+                            <a href="#">
+                                <div class="panel-footer">
+                                    <button type="button" class="btn btn-primary">Modify</button>
+                                    <button type="button" class="btn btn-info">View</button>
+                                    <button type="button" class="btn btn-danger">Delete</button>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
                         </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <button type="button" class="btn btn-primary">Modify</button>
-                                <button type="button" class="btn btn-info">View</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>New Tasks!</div>
-                                </div>
-                            </div>
                         </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                    </c:forEach>
+
+
+
+
+
                 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
