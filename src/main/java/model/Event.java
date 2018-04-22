@@ -17,21 +17,25 @@ public class Event {
     private String via;
     private String to;
     private Date startingDate;
+    private String longDescription;
     private String desciption;
     private List<User> subscribers = new ArrayList<>();
 
     public Event() {
     }
 
-    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption) {
+    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption,String longDescription) {
         this.tittle = tittle;
         this.from = from;
         this.via = via;
         this.to = to;
         this.startingDate = startingDate;
         this.desciption = desciption;
+        this.longDescription = longDescription;
     }
-
+    public String getLongDiscription() {
+        return this.longDescription;
+    }
     public void setTittle(String title) {
         this.tittle = title;
     }

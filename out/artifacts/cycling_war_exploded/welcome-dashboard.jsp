@@ -432,7 +432,7 @@ if(session.getAttribute("currentUser")==null){
                         <div class="col-lg-3 col-md-6">
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <div><h3 style="color: yellow">${sessionScope.currentUser.event.tittle}</h3></div>
+                                <div><h3 style="color: yellow">${event.tittle}</h3></div>
                                 <div class="row">
                                     <div class="col-xs-3">
                                         <i class="fa fa-support fa-5x"></i>
@@ -453,11 +453,11 @@ if(session.getAttribute("currentUser")==null){
 
 
 
-                                    <button  style="margin: 0 2px" class="btn btn-primary" style="float: right" data-toggle="modal" data-target="#myModal">
+                                    <button  style="margin: 0 2px" class="btn btn-primary" style="float: right" data-toggle="modal" data-target="#modify">
                                         Modify
                                     </button>
                                     <!-- Modal -->
-                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                    <div class="modal fade" id= "modify"tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                                          aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
@@ -503,11 +503,11 @@ if(session.getAttribute("currentUser")==null){
 
 
 
-                                    <button style="margin: 0 2px"  class="btn btn-info" style="float: right" data-toggle="modal" data-target="#myModal">
+                                    <button style="margin: 0 2px"  class="btn btn-info" style="float: right" data-toggle="modal" data-target="#view">
                                         View
                                     </button>
                                     <!-- Modal -->
-                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                    <div class="modal fade" tabindex="-1" id="view" role="dialog" aria-labelledby="myModalLabel"
                                          aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
