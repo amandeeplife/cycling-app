@@ -5,10 +5,12 @@ package model;
  Purpose: Stores event information
  */
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Event {
+    public Event(){}
     private String tittle;
     private Date createdTime = new Date();
     private String from;
@@ -16,8 +18,28 @@ public class Event {
     private String to;
     private Date startingDate;
     private String desciption;
-    private List<User> subscribers;
-
+    private List<User> subscribers = new ArrayList<>();
+    public void setTittle(String title){
+        this.tittle = title;
+    }
+    public void setFrom(String from){
+        this.from = from;
+    }
+    public void setTo(String to){
+        this.to = to;
+    }
+    public void setVia(String via){
+        this.via = via;
+    }
+    public void setDiscription(String desciption){
+        this.desciption = desciption;
+    }
+    public void setStartingDate(Date date){
+        this.startingDate = date;
+    }
+    public void addSubscibers(User user){
+        subscribers.add(user);
+    }
     public String getTittle() {
         return tittle;
     }

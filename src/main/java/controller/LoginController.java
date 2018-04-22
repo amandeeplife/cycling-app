@@ -20,11 +20,11 @@ import java.util.Map;
 
 @WebServlet("/login")
 class LoginController extends HttpServlet {
-    private UserService userService;
+    private UserService userService    = new UserService();
 
-    public LoginController() {
-        userService = new UserService();
-    }
+
+
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         String username = request.getParameter("username");

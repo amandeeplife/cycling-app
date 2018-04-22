@@ -1,4 +1,4 @@
-<%--
+<%@ page import="model.Event" %><%--
   Created by IntelliJ IDEA.
   User: Amanuel
   Date: 4/21/2018
@@ -9,6 +9,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JavaScript/dashboard.js"></script>
     <title>Title</title>
 </head>
 <!DOCTYPE html>
@@ -51,12 +53,24 @@
 
 <body>
 
-
 <%
-if(session.getAttribute("user")==null){
-    response.sendRedirect("login.html");
-}
 
+    Event[] evArray   = new Event[5];
+    Event ev = new Event();
+    ev.setDiscription("This is sample discription");
+    ev.setTittle("Sample Ride Title");
+    evArray[3] = ev;
+    evArray[2] = ev;
+    evArray[1] = ev;
+    evArray[0] = ev;
+    evArray[4] = ev;
+    session.setAttribute("evArray",evArray);
+
+%>
+<%
+if(session.getAttribute("currentUser")==null){
+  //  response.sendRedirect("login.html");
+}
 %>
 
 <div id="wrapper">
@@ -217,7 +231,7 @@ if(session.getAttribute("user")==null){
                     <li>
                         <a href="#">
                             <div>
-                                <i class="fa fa-comment fa-fw"></i> New Comment
+                                <i class="fa fa-support"></i> New Comment
                                 <span class="pull-right text-muted small">4 minutes ago</span>
                             </div>
                         </a>
@@ -319,8 +333,12 @@ if(session.getAttribute("user")==null){
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
+                        <a href="liveevents.jsp"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
+                    </li>
+                    <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
                     </li>
+
                     <li>
                         <a href="pages/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                     </li>
@@ -383,7 +401,7 @@ if(session.getAttribute("user")==null){
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Sample Pages<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="blank.html">Blank Page</a>
+                                <a href="welcome.jsp">Blank Page</a>
                             </li>
                             <li>
                                 <a href="login.html">Login Page</a>
@@ -403,7 +421,7 @@ if(session.getAttribute("user")==null){
             <div class="col-lg-12">
                 <h1 class="page-header">Dashboard</h1>
                 <button class="btn btn-success" style="float: right" data-toggle="modal" data-target="#myModal">
-                    Create Event
+                    Create Cycling Event
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -432,7 +450,7 @@ if(session.getAttribute("user")==null){
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close
                                         </button>
-                                        <input type="submit" value="Save Changes" class="btn btn-primary"
+                                        <input id="saveEvent" type="submit" value="Save Changes" class="btn btn-primary"
                                                data-dismiss="modal">
                                     </div>
                                 </form>
@@ -448,53 +466,179 @@ if(session.getAttribute("user")==null){
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-primary">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-comments fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">26</div>
-                                    <div>New Comments!</div>
+            <div id ="ownEvents" class="row">
 
+
+                    <c:forEach items="${evArray}" var="event" varStatus="loop">
+                        <div class="col-lg-3 col-md-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <i class="fa fa-support fa-5x"></i>
+                                    </div>
+                                    <div class="col-xs-9 text-right">
+                                        <div class="huge">26</div>
+                                        <div>${event.desciption}</div>
+
+                                    </div>
                                 </div>
                             </div>
+                            <a href="#">
+                                <div class="panel-footer">
+
+
+
+
+
+
+                                    <button  style="margin: 0 2px" class="btn btn-primary" style="float: right" data-toggle="modal" data-target="#myModal">
+                                        Modify
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Create Your Event</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; width: 70%">
+                                                            Please Fill the following information if you would like to create an
+                                                            Event!<br><br>
+                                                            Event Title : <input type="text" class="form-control" ><br>
+                                                            Starting :<input type="text" class="form-control" ><br>
+                                                            Via :<input type="text" class="form-control" ><br>
+                                                            Desitination :<input type="text" class="form-control" ><br>
+                                                            Discription : <textarea class="form-control" rows="3"></textarea><br>
+                                                            Event date : <input  type="date"><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                                            </button>
+                                                            <input id="saveEvent" type="submit" value="Save Changes" class="btn btn-primary"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+
+
+
+
+
+
+                                    <button style="margin: 0 2px"  class="btn btn-info" style="float: right" data-toggle="modal" data-target="#myModal">
+                                        View
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Create Your Event</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; width: 70%">
+                                                            Please Fill the following information if you would like to create an
+                                                            Event!<br><br>
+                                                            Event Title : <input type="text" class="form-control" ><br>
+                                                            Starting :<input type="text" class="form-control" ><br>
+                                                            Via :<input type="text" class="form-control" ><br>
+                                                            Desitination :<input type="text" class="form-control" ><br>
+                                                            Discription : <textarea class="form-control" rows="3"></textarea><br>
+                                                            Event date : <input  type="date"><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close
+                                                            </button>
+                                                            <input  type="submit" value="Save Changes" class="btn btn-primary"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                    <button style="margin: 0 2px" class="btn btn-danger" style="float: right" data-toggle="modal" data-target="#delete">
+                                        Delete
+                                    </button>
+                                    <!-- Modal -->
+                                    <div id="delete" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                                         aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                                    </button>
+                                                    <h4 class="modal-title">Confirmation</h4>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <form>
+
+                                                        <div style="margin: auto; font-size:15px; width: 70%">
+                                                           Are you sure you want to delete ? <br><br>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel
+                                                            </button>
+                                                            <input  type="submit" value="Yes" class="btn btn-danger"
+                                                                   data-dismiss="modal">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <!-- /.modal-content -->
+                                            </div>
+
+                                            <!-- /.modal-dialog -->
+                                        </div>
+                                        <br><br>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </a>
                         </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <button type="button" class="btn btn-primary">Modify</button>
-                                <button type="button" class="btn btn-info">View</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="panel panel-green">
-                        <div class="panel-heading">
-                            <div class="row">
-                                <div class="col-xs-3">
-                                    <i class="fa fa-tasks fa-5x"></i>
-                                </div>
-                                <div class="col-xs-9 text-right">
-                                    <div class="huge">12</div>
-                                    <div>New Tasks!</div>
-                                </div>
-                            </div>
                         </div>
-                        <a href="#">
-                            <div class="panel-footer">
-                                <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                                <div class="clearfix"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                    </c:forEach>
+
+
+
+
+
                 <div class="col-lg-3 col-md-6">
                     <div class="panel panel-yellow">
                         <div class="panel-heading">
@@ -511,7 +655,7 @@ if(session.getAttribute("user")==null){
                         <a href="#">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <span class="pull-right"><i class="fa fa-support"></i></span>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -533,7 +677,7 @@ if(session.getAttribute("user")==null){
                         <a href="#">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
-                                <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                                <span class="pull-right"><i class="fa fa-support"></i></span>
                                 <div class="clearfix"></div>
                             </div>
                         </a>
@@ -541,63 +685,8 @@ if(session.getAttribute("user")==null){
                 </div>
             </div>
             <!-- /.row -->
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Area Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle"
-                                            data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <div id="morris-area-chart"></div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-                    <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <i class="fa fa-bar-chart-o fa-fw"></i> Bar Chart Example
-                            <div class="pull-right">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-default btn-xs dropdown-toggle"
-                                            data-toggle="dropdown">
-                                        Actions
-                                        <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li><a href="#">Action</a>
-                                        </li>
-                                        <li><a href="#">Another action</a>
-                                        </li>
-                                        <li><a href="#">Something else here</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
+
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <div class="row">
@@ -684,6 +773,32 @@ if(session.getAttribute("user")==null){
                         <!-- /.panel-heading -->
                         <div class="panel-body">
                             <ul class="timeline">
+
+
+                                <li>
+                                    <div class="timeline-badge"><i class="fa fa-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                            <p>
+                                                <small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via
+                                                    Twitter
+                                                </small>
+                                            </p>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>This is my time line Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
+                                                laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia
+                                                pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas
+                                                suscipit facere rem dicta, debitis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+
+
                                 <li>
                                     <div class="timeline-badge"><i class="fa fa-check"></i>
                                     </div>
@@ -828,7 +943,7 @@ if(session.getAttribute("user")==null){
                         <div class="panel-body">
                             <div class="list-group">
                                 <a href="#" class="list-group-item">
-                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <i class="fa fa-support"></i> New Comment
                                     <span class="pull-right text-muted small"><em>4 minutes ago</em>
                                     </span>
                                 </a>
