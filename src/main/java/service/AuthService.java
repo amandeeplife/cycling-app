@@ -35,14 +35,14 @@ public class AuthService {
 
             if (user != null) {
                 request.getSession().setAttribute("currentUser", user);
-
                 response.sendRedirect("welcome-dashboard.jsp");
                 return;
             } else {
                 request.setAttribute("notExist", "The user doesn't exist");
+                return;
             }
         }
-        request.getRequestDispatcher("login.jsp").forward(request, response);
+        response.sendRedirect("login.jsp");
     }
 
     public void logOut(HttpServletRequest request, HttpServletResponse response) throws IOException {
