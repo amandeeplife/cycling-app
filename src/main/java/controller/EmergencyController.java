@@ -9,6 +9,7 @@ import org.json.simple.JSONValue;
 import org.json.simple.parser.JSONParser;
 import service.EventService;
 
+import javax.json.Json;
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
@@ -28,7 +29,7 @@ public class EmergencyController extends HttpServlet {
             EventService eventService  =    new EventService();
             Event event = eventService.findByName(request.getParameter("param"));
             List<User>  users = event.getSubscribers();
-
+            System.out.println(request.getParameter("param"));
         }
     }
 
@@ -40,7 +41,7 @@ public class EmergencyController extends HttpServlet {
         response.setContentType("application/json;charset=UTF-8");
 
         PrintWriter out = response.getWriter();
-        JSONArray arr = new JSONArray();
+        JSONObject arr = new JSONObject();
         JSONObject obj1 = new JSONObject();
         JSONObject obj2 = new JSONObject();
         JSONObject obj4 = new JSONObject();
@@ -62,12 +63,13 @@ public class EmergencyController extends HttpServlet {
         obj6.put("text", "pqr");
         obj6.put("url", "pqr.com");
         obj6.put("leaf", true);
-        arr.add(obj1);
-        arr.add(obj4);
-        arr.add(obj5);
-        arr.add(obj6);
+//        arr.add(obj1);
+//        arr.add(obj4);
+//        arr.add(obj5);
+//        arr.add(obj6);
         obj2.put("items",arr);
-
-        out.println(obj2);
+        JSONObject arrayObj = new JSONObject();
+     //   arrayObj.put("hellow");
+        out.println(obj1);
     }
 }

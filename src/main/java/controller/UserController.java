@@ -25,6 +25,7 @@ public class UserController extends HttpServlet {
             request.getSession().setAttribute("Emergencyflag", user.getEmergencySFlag());
         }
 
+
     }
     }
 

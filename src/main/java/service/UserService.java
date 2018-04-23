@@ -53,4 +53,10 @@ public class UserService {
         if (resultList.size() != 1) return null;
         return resultList.get(0);
     }
+    public void setUsers(List<User> users){
+        this.users = users;
+    }
+    public List<User> getAllUsers(){
+        return users;
+    }
 }

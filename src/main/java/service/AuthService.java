@@ -7,6 +7,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 public class AuthService {
     private UserService userService;
@@ -32,9 +33,10 @@ public class AuthService {
 
         if (errorPassword.isEmpty() && errorUsername.isEmpty()) {
             User user = userService.getUserByName(username, password);
-
+               List<User> users = userService.getAllUsers();
             if (user != null) {
                 request.getSession().setAttribute("currentUser", user);
+                request.getSession().setAttribute("AllUser", users);
                 Resource.setCurrentUser(user);
                 response.sendRedirect("welcome-dashboard.jsp");
                 return;
