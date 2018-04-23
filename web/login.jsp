@@ -36,7 +36,7 @@
                     <label class="image-replace email" for="signin-email1">E-mail</label>
                     <input class="full-width has-padding has-border" id="signin-email1"
                            type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-                           placeholder="E-mail" name="username"
+                           placeholder="E-mail" name="userName"
                            title="Wrong email filling">
                 </p>
 
@@ -88,7 +88,7 @@
                     <label class="image-replace email" for="signin-email">E-mail</label>
                     <input class="full-width has-padding has-border" id="signin-email"
                            type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-                           placeholder="E-mail" name="username"
+                           placeholder="E-mail" name="userName"
                            title="Wrong email filling">
                 </p>
 

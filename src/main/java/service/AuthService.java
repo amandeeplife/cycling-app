@@ -17,7 +17,7 @@ public class AuthService {
     }
 
     public void login(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        String username = request.getParameter("username");
+        String username = request.getParameter("userName");
         String password = request.getParameter("password");
         String errorUsername = "";
         String errorPassword = "";
