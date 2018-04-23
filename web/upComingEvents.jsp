@@ -417,6 +417,7 @@
                                         <th>From</th>
                                         <th>Via</th>
                                         <th>To</th>
+                                        <%--<th>Subscribers</th>--%>
                                         <th>Description</th>
                                         <th>Participate</th>
                                     </tr>
@@ -430,9 +431,10 @@
                                             <td>${event.from}</td>
                                             <td>${event.via}</td>
                                             <td>${event.to}</td>
+                                            <%--<td>${${fn:length(event.subscribes)}}</td>--%>
                                             <td>${event.description}</td>
                                             <td>
-                                                <button class="btn btn-success" value="${event.tittle}" onclick="participate(this)">
+                                                <button class="btn btn-success" tittle="${event.tittle}">
                                                     Participate
                                                 </button>
                                             </td>
