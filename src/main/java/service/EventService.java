@@ -37,6 +37,28 @@ public class EventService {
         return results;
     }
 
+    public List<JSONObject> getAllLiveEvents(User currentUser) {
+        List<JSONObject> results = new LinkedList<>();
+        for (User u : users) {
+            List<Event> eventList = u.getCreatedEvents();
+            for (Event event : eventList) {
+                JSONObject res = new JSONObject();
+                if (event.getStatus() == EventStatus.ONGOING) {
+                    res.put("tittle", event.getTittle());
+                    res.put("startingDate", event.getStartingDate());
+                    res.put("from", event.getFrom());
+                    res.put("via", event.getVia());
+                    res.put("to", event.getTo());
+                    res.put("shortDescription", event.getShortdiscription());
+                    res.put("longDescription", event.getLongDescription());
+
+                    results.add(res);
+                }
+            }
+        }
+        return results;
+    }
+
     public void participate(String eventName) {
         User currentUser = Resource.getCurrentUser();
         Event event = findByName(eventName);

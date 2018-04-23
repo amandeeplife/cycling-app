@@ -6,11 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="">
+    <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="some changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/DashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EmergencyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/EmerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpcomingEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/welcome-dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome-dashboard.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,59 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="upComingEvents.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/upComingEvents.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="452" column="35" lean-forward="true" selection-start-line="452" selection-start-column="35" selection-end-line="452" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegUserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/RegUserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="109">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -83,43 +35,47 @@
       <file leaf-file-name="upComingEvent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/JavaScript/upComingEvent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="198">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UpEventController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
+      <file leaf-file-name="LiveEventController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="162">
+              <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome-dashboard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="335" column="40" selection-start-line="335" selection-start-column="40" selection-end-line="335" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventParticipate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/EventParticipate.java">
+      <file leaf-file-name="liveevents.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EventService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="101">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +101,6 @@
     <findStrings>
       <find>jstl</find>
       <find>users</find>
-      <find>live</find>
       <find>c:</find>
       <find>lore</find>
       <find>timeline-badge</find>
@@ -173,6 +128,7 @@
       <find>page-header</find>
       <find>loginCon</find>
       <find>userName</find>
+      <find>live</find>
     </findStrings>
     <replaceStrings>
       <replace>fa-support</replace>
@@ -221,12 +177,9 @@
         <option value="$PROJECT_DIR$/web/JavaScript/createEvent.js" />
         <option value="$PROJECT_DIR$/web/Res/vendor/morrisjs/morris.min.js" />
         <option value="$PROJECT_DIR$/web/liveevents.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Event.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/EventService.java" />
         <option value="$PROJECT_DIR$/web/Res/loginPage/style.css" />
         <option value="$PROJECT_DIR$/src/main/java/controller/EventParticipate.java" />
-        <option value="$PROJECT_DIR$/web/welcome-dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/upComingEvents.jsp" />
         <option value="$PROJECT_DIR$/web/JavaScript/upComingEvent.js" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RegUserController.java" />
@@ -235,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/UpcomingEventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UpEventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/EmerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/EventService.java" />
+        <option value="$PROJECT_DIR$/web/welcome-dashboard.jsp" />
       </list>
     </option>
   </component>
@@ -312,19 +268,6 @@
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -350,19 +293,19 @@
     <property name="project.structure.side.proportion" value="0.35058594" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res\loginPage" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\WEB-INF\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Angular" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res" />
+      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web" />
+      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res\loginPage" />
+      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -379,23 +322,8 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/JavaScript/dashboard.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/loginPage/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/createEvent.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/welcome-dashboard.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/controller/EmergencyController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/controller/EventController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/controller/UserController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/service/AuthService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/service/UserService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/JavaScript/dashboard.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Res/loginPage/style.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/WEB-INF/web.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/createEvent.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/util/Resource.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/liveevents.jsp</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/web/welcome-dashboard.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -404,8 +332,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/bk.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/userInfo.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/subscribedEvents.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -413,10 +340,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/bk.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/cycling_war_exploded/googlemapView.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/Res/bk.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/googlemapView.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -651,7 +574,7 @@
       <workItem from="1524468855535" duration="1143000" />
       <workItem from="1524497215537" duration="1918000" />
       <workItem from="1524499276666" duration="4217000" />
-      <workItem from="1524508025170" duration="5056000" />
+      <workItem from="1524508025170" duration="5878000" />
     </task>
     <task id="LOCAL-00001" summary="Front End for Event Creating, Listing Events">
       <created>1524370655680</created>
@@ -737,11 +660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524511861565</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="some changes">
+      <created>1524515346337</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1524515346337</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73493000" />
+    <option name="totallyTimeSpent" value="74315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
@@ -758,7 +688,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.17446472" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" visible="true" weight="0.3234375" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" visible="true" weight="0.4421875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3265625" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -768,7 +698,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4609375" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.23869945" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.16970658" />
       <window_info id="Web" order="2" sideWeight="0.5046875" side_tool="true" weight="0.19429025" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -852,10 +782,10 @@
     <MESSAGE value="sign up part is being built" />
     <MESSAGE value="JSon and AJAX updated. Google map implemented." />
     <MESSAGE value="upcoming and live events" />
-    <MESSAGE value="some changes" />
     <MESSAGE value="login issue has been fixed" />
     <MESSAGE value="throwing user if do not exist" />
-    <option name="LAST_COMMIT_MESSAGE" value="throwing user if do not exist" />
+    <MESSAGE value="some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -868,19 +798,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/EventService.java</url>
-          <line>40</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/EventService.java</url>
-          <line>49</line>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/EventService.java</url>
-          <line>42</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
@@ -908,8 +838,14 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="61" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -1128,20 +1064,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="414" column="36" selection-end-line="468" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1184,13 +1106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="425" column="24" lean-forward="true" selection-start-line="425" selection-start-column="24" selection-end-line="425" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/upComingEvents.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1205,16 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -1222,19 +1127,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/upComingEvent.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EventParticipate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="-54">
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="288">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/upComingEvent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="335" column="40" selection-start-line="335" selection-start-column="40" selection-end-line="335" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1246,45 +1180,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EventParticipate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="759">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
           </folding>
         </state>
       </provider>

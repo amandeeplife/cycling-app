@@ -333,7 +333,7 @@ if(session.getAttribute("currentUser")==null){
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="liveevents.jsp"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
+                        <a href="/liveEvents"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
