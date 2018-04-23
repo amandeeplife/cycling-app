@@ -35,6 +35,8 @@ public class Event implements Comparable<Event> {
         this.longDescription = longDescription;
     }
 
+
+
     public String getLongDiscription() {
         return this.longDescription;
     }

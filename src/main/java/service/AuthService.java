@@ -35,6 +35,7 @@ public class AuthService {
 
             if (user != null) {
                 request.getSession().setAttribute("currentUser", user);
+                Resource.setCurrentUser(user);
                 response.sendRedirect("welcome-dashboard.jsp");
                 return;
             } else {
@@ -47,6 +48,7 @@ public class AuthService {
 
     public void logOut(HttpServletRequest request, HttpServletResponse response) throws IOException {
         request.getSession().invalidate();
+        Resource.setCurrentUser(null);
         response.sendRedirect("login.jsp");
     }
 

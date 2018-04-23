@@ -23,6 +23,7 @@ public class EventService {
                 JSONObject res = new JSONObject();
                 if (event.getStatus() == EventStatus.UPCOMING) {
                     res.put("tittle", event.getTittle());
+                    res.put("startingDate", event.getStartingDate());
                     res.put("from", event.getFrom());
                     res.put("via", event.getVia());
                     res.put("to", event.getTo());
@@ -33,5 +34,20 @@ public class EventService {
             }
         }
         return results;
+    }
+
+    public void participate(String eventName) {
+
+    }
+
+    public Event findByName(String eventName) {
+//        Event event
+//        for (User u : Resource.getUsers()) {
+//
+//        }
+//        for (Event event :) {
+//
+//        }
+        return null;
     }
 }

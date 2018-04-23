@@ -3,7 +3,7 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JavaScript/dashboard.js"></script>
+    <script src="JavaScript/upComingEvent.js" type="application/javascript"></script>
     <title>Title</title>
 </head>
 <!DOCTYPE html>
@@ -411,31 +411,33 @@
                                        id="dataTables-example">
                                     <thead>
                                     <tr>
+                                        <th>#</th>
                                         <th>Tittle</th>
                                         <th>Starting date</th>
                                         <th>From</th>
                                         <th>Via</th>
                                         <th>To</th>
                                         <th>Description</th>
-                                        <th>Remove</th>
+                                        <th>Participate</th>
                                     </tr>
                                     </thead>
                                     <tbody>
-                                    <c:forEach items="${requestScope.eventList}" var="event">
+                                    <c:forEach items="${requestScope.eventList}" var="event" varStatus="loop">
                                         <tr class="odd gradeX">
+                                            <td>${loop.index + 1}</td>
                                             <td>${event.tittle}</td>
                                             <td>${event.startingDate}</td>
                                             <td>${event.from}</td>
                                             <td>${event.via}</td>
                                             <td>${event.to}</td>
-                                            <td>${event.desciption}</td>
+                                            <td>${event.description}</td>
                                             <td>
-                                                <button class="btn btn-danger">Remove</button>
+                                                <button class="btn btn-success" value="${event.tittle}" onclick="participate(this)">
+                                                    Participate
+                                                </button>
                                             </td>
                                         </tr>
                                     </c:forEach>
-
-
                                     </tbody>
                                 </table>
                             </div>
