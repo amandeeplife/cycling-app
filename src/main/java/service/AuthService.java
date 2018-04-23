@@ -42,6 +42,7 @@ public class AuthService {
                 return;
             } else {
                 request.setAttribute("notExist", "The user doesn't exist");
+                response.sendRedirect("login.jsp");
                 return;
             }
         }
