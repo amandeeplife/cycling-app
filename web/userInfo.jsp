@@ -363,7 +363,7 @@
                     <div class="panel-heading">
                         ${user.firstName}
                     </div>
-                    <div style="background-image: url(bk.jpg)">
+                    <div>
                     <br><br>
                     <div style="width: 20%; margin: auto" >   <img src="https://images.unsplash.com/profile-1462285601040-a9bcbb6514fd?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff">
                     </div>
