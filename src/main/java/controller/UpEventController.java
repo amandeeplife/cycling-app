@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet("/upcomingEvents")
-public class UpcomingEventController extends HttpServlet {
+public class UpEventController extends HttpServlet {
 
     private EventService eventService;
 

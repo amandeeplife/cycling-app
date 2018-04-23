@@ -1,17 +1,11 @@
 package controller;
 
-import com.google.gson.Gson;
 import model.Event;
 import model.User;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
-import org.json.simple.parser.JSONParser;
 import service.EventService;
 
-import javax.json.Json;
 import javax.servlet.ServletException;
-import javax.servlet.ServletOutputStream;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -22,7 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/Emergency")
-public class EmergencyController extends HttpServlet {
+public class EmerController extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         if(request.getParameter("param")!=null){
