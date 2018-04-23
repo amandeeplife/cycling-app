@@ -397,26 +397,26 @@
                     <div class="panel-body">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs">
-                            <li class="active"><a href="#home" data-toggle="tab">Home</a>
+                            <li class="active"><a href="#${subEvent.tittle}" data-toggle="tab">Home</a>
                             </li>
-                            <li><a href="#profile" data-toggle="tab">Detail</a>
+                            <li><a href="#${subEvent.tittle}a" data-toggle="tab">Detail</a>
                             </li>
-                            <li><a href="#messages" data-toggle="tab">Routing</a>
+                            <li><a href="${subEvent.tittle}b" data-toggle="tab">Routing</a>
                             </li>
 
                         </ul>
 
                         <!-- Tab panes -->
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" id="home">
+                            <div class="tab-pane fade in active" id="${subEvent.tittle}">
                                 <h4>Home Tab</h4>
                             <p>${subEvent.shortdiscription}</p>
                              </div>
-                            <div class="tab-pane fade" id="profile">
+                            <div class="tab-pane fade" id="${subEvent.tittle}a">
                                 <h4>Detail</h4>
                             <p>${subEvent.longDescription}</p>
                             </div>
-                            <div class="tab-pane fade" id="messages">
+                            <div class="tab-pane fade" id="${subEvent.tittle}b">
                                 <h4>Routing Points</h4>
                                    From ${subEvent.from} Through ${subEvent.via} and Finaly to ${subEvent.to}
 

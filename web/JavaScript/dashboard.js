@@ -1,5 +1,16 @@
 $(document).ready(function () {
 
+    $("#controllButton").click(function () {
+        console.log($(this).innerText+"asdf")
+        console.log($(this).text())
+        if($(this).innerText ="Stop"){
+            $("#controllButton").attr('value', 'Stop').css('background-color','#da534f');
+        }
+else if($(this).innerText !="Start Ride") {
+            $("#controllButton").attr('value', 'Start Ride').addClass("btn btn-success")
+        }
+
+    })
 
 
 
@@ -29,6 +40,8 @@ function flagFetchSuccess(data) {
 
 
 }
+
+
     setInterval(function () {
 
             $.ajax({

@@ -469,9 +469,13 @@ if(session.getAttribute("currentUser")==null){
                                     <h4 style="clear: both">Summary :</h4>
                                         ${event.longDescription}
                                  <div class="clearfix"></div>
-                                </div>
-                            </a>
+                                    </a>
+                            <br>  </div>
+                            <input type="button" id="controllButton" style="border-radius: unset" value="Start Ride" class="btn btn-success btn-lg btn-block"></button>
+
+
                         </div>
+
                         </div>
                     </c:forEach>
 
