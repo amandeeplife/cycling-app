@@ -63,40 +63,66 @@
             height: 174px;
         }
     </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+
 </head>
 <body>
 <div id="map"></div>
 <div id="right-panel">
     <div>
-        <button class="btn btn-primary" onclick="window.location.href='/googlemapView.jsp'">Go to Dashboard</button>
+
+        <button class="btn btn-primary" style="float: right" onclick="window.location.href='/welcome-dashboard.jsp'">Go to Dashboard</button>
+
+        <button id="checkMap" class="btn btn-info">Check on Map</button>
+
+        <form id="eventCreate" method="post" action="EventController">
         <br><br>
         Please Fill the following information if you would like to create an
         Event!<br><br>
-        Event Title : <input type="text" class="form-control"><br>
+            Event Title :<span id="msg"></span> <input id="title" name="eventTitle" type="text" class="form-control"><br>
         <b>Start:</b>
-        <select id="start">
+
+        <select name="eventStart" id="start">
 
         </select>
         <br>
         <b>Waypoints:</b> <br>
         <i>(Ctrl+Click or Cmd+Click for multiple selection)</i> <br>
-        <select multiple id="waypoints">
+        <select name="eventWayPoints" multiple id="waypoints">
 
         </select>
         <br>
-        <b>End:</b>
-        <select id="end">
+        <b >End:</b>
+        <select name="eventEnd" id="end">
         </select>
         <br>
-
-        <input type="submit" id="submit" value="Check on Map" class="btn btn-info"><br>
-
-        Discription : <textarea class="form-control" rows="3"></textarea><br>
+        Discription : <textarea name = "eventDescription" class="form-control" rows="3"></textarea><br>
         Event date : <input id="date" type="date"><br>
+            <input type="hidden" name="username" value="${sessionScope.currentUser.username}" >
+            <input type="submit" value="Save Changes">
+        </form>
     </div>
+
+
+</div>
+
     <div id="directions-panel"></div>
 </div>
 <script>
+    $(function () {
+      $("#eventCreate").submit(function (event) {
+console.log( $("#title").val().length+"text for title");
+          if( $("#title").val().length === 0 ){
+              console.log("please Fill ou the data")
+              event.preventDefault();
+              $("#msg").append("<p style='color: red'>Please input Title</p>")
+
+          }
+      })
+    }
+    )
+
+
     function initMap() {
         var directionsService = new google.maps.DirectionsService;
         var directionsDisplay = new google.maps.DirectionsRenderer;
@@ -105,11 +131,11 @@
             center: {lat: 41.85, lng: -87.65}
         });
         directionsDisplay.setMap(map);
+$("#checkMap").click(function () {
+    calculateAndDisplayRoute(directionsService, directionsDisplay);
+    console.log(document.getElementById('start').value + "  " + document.getElementById('end').value + " " + document.getElementById('waypoints'))
+})
 
-        document.getElementById('submit').addEventListener('click', function () {
-            calculateAndDisplayRoute(directionsService, directionsDisplay);
-            console.log(document.getElementById('start').value + "  " + document.getElementById('end').value + " " + document.getElementById('waypoints'))
-        });
     }
 
     function calculateAndDisplayRoute(directionsService, directionsDisplay) {
