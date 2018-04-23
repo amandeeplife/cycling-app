@@ -1,18 +1,19 @@
-function participate(elem) {
-    const tittle = $(elem).val();
-    console.log(tittle);
-    $.ajax({
-        url: "/participate",
-        method: "post",
-        data: {
-            "tittle": tittle
-        },
-        success: function (response) {
-            console.log(response);
-        },
-        error: function (error) {
-            console.log(error);
-        }
+$(document).ready(function () {
+    $(":button").on("click", function (event) {
+        const tittle = $(this).attr("tittle");
+        console.log(tittle);
+        $.ajax({
+            url: "/participate",
+            type: "post",
+            contentType: "application/json",
+            data: {
+                tittle: tittle
+            },
+            success: successFunction($(this).val()),
+        });
     });
-    console.log("came");
-}
+
+    function successFunction(tittle) {
+        alert("you have been subscribed to " + tittle);
+    }
+});

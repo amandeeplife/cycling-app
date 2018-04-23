@@ -10,8 +10,8 @@ ul, li {
 }
 
 body {
-    background:url("../../bk.jpg");
-    background-size: 100vw 100vh;
+    background: url("../../header_2.jpg");
+    /*background-size: 100vw 100vh;*/
 }
 
 .main-nav {

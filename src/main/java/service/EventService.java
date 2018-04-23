@@ -38,17 +38,25 @@ public class EventService {
     }
 
     public void participate(String eventName) {
-
+        User currentUser = Resource.getCurrentUser();
+        Event event = findByName(eventName);
+        if (event != null) {
+            event.addSubscibers(currentUser);
+            currentUser.getSubscribedEvents().add(event);
+        }
     }
 
     public Event findByName(String eventName) {
-//        Event event
-//        for (User u : Resource.getUsers()) {
-//
-//        }
-//        for (Event event :) {
-//
-//        }
-        return null;
+        List<User> users = Resource.getUsers();
+        Event event = null;
+        for (User u : users) {
+            List<Event> events = u.getCreatedEvents();
+            for (Event e : events) {
+                if (e.getTittle().equals(eventName)) {
+                    event = e;
+                }
+            }
+        }
+        return event;
     }
 }
