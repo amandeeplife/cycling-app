@@ -1,11 +1,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: Amanuel
+  Date: 4/23/2018
+  Time: 2:23 PM
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JavaScript/dashboard.js"></script>
-    <title>Title</title>
-</head>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
@@ -29,12 +29,9 @@
     <!-- Custom CSS -->
     <link href="Res/dist/css/sb-admin-2.css" rel="stylesheet">
 
-    <!-- Morris Charts CSS -->
-    <link href="Res/vendor/morrisjs/morris.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="Res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,11 +42,6 @@
 </head>
 
 <body>
-<%
-    if (session.getAttribute("currentUser") == null) {
-        response.sendRedirect("login.html");
-    }
-%>
 
 <div id="wrapper">
 
@@ -131,8 +123,7 @@
                                     <span class="pull-right text-muted">40% Complete</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
                                         <span class="sr-only">40% Complete (success)</span>
                                     </div>
                                 </div>
@@ -148,8 +139,7 @@
                                     <span class="pull-right text-muted">20% Complete</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
                                         <span class="sr-only">20% Complete</span>
                                     </div>
                                 </div>
@@ -165,8 +155,7 @@
                                     <span class="pull-right text-muted">60% Complete</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
                                         <span class="sr-only">60% Complete (warning)</span>
                                     </div>
                                 </div>
@@ -182,8 +171,7 @@
                                     <span class="pull-right text-muted">80% Complete</span>
                                 </p>
                                 <div class="progress progress-striped active">
-                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
-                                         aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
                                         <span class="sr-only">80% Complete (danger)</span>
                                     </div>
                                 </div>
@@ -209,7 +197,7 @@
                     <li>
                         <a href="#">
                             <div>
-                                <i class="fa fa-support"></i> New Comment
+                                <i class="fa fa-comment fa-fw"></i> New Comment
                                 <span class="pull-right text-muted small">4 minutes ago</span>
                             </div>
                         </a>
@@ -295,58 +283,52 @@
                         <!-- /input-group -->
                     </li>
                     <li>
-                        <a href="welcome-dashboard.jsp"><i class="fa fa-dashboard fa-fw"></i> Upcoming events</a>
-
+                        <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="events.jsp">Subscribed Events</a>
+                                <a href="flot.html">Flot Charts</a>
                             </li>
                             <li>
-                                <a href="events.jsp">Your Events</a>
+                                <a href="morris.html">Morris.js Charts</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="Res/tables.html"><i class="fa fa-table fa-fw"></i> Live Events</a>
-                    </li>
-                    <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
                     </li>
-
                     <li>
-                        <a href="pages/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
+                        <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="pages/panels-wells.html">Panels and Wells</a>
+                                <a href="panels-wells.html">Panels and Wells</a>
                             </li>
                             <li>
-                                <a href="pages/buttons.html">Buttons</a>
+                                <a href="buttons.html">Buttons</a>
                             </li>
                             <li>
-                                <a href="pages/notifications.html">Notifications</a>
+                                <a href="notifications.html">Notifications</a>
                             </li>
                             <li>
-                                <a href="pages/typography.html">Typography</a>
+                                <a href="typography.html">Typography</a>
                             </li>
                             <li>
-                                <a href="pages/icons.html"> Icons</a>
+                                <a href="icons.html"> Icons</a>
                             </li>
                             <li>
-                                <a href="pages/grid.html">Grid</a>
+                                <a href="grid.html">Grid</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span
-                                class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a href="#">Second Level Item</a>
@@ -397,73 +379,84 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Live Events</h1>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Upcoming events
-                            </div>
-                            <!-- /.panel-heading -->
-                            <div class="panel-body">
-                                <table width="100%" class="table table-striped table-bordered table-hover"
-                                       id="dataTables-example">
-                                    <thead>
-                                    <tr>
-                                        <th>Tittle</th>
-                                        <th>Starting date</th>
-                                        <th>From</th>
-                                        <th>Via</th>
-                                        <th>To</th>
-                                        <th>Description</th>
-                                        <th>Remove</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <c:forEach items="${requestScope.eventList}" var="event">
-                                        <tr class="odd gradeX">
-                                            <td>${event.tittle}</td>
-                                            <td>${event.startingDate}</td>
-                                            <td>${event.from}</td>
-                                            <td>${event.via}</td>
-                                            <td>${event.to}</td>
-                                            <td>${event.desciption}</td>
-                                            <td>
-                                                <button class="btn btn-danger">Remove</button>
-                                            </td>
-                                        </tr>
-                                    </c:forEach>
-
-
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.panel-body -->
-                        </div>
-                        <!-- /.panel -->
-                    </div>
-                    <!-- /.col-lg-12 -->
-                </div>
+                <h1 class="page-header">Panels and Wells</h1>
             </div>
-            <!-- /#page-wrapper -->
-
+            <!-- /.col-lg-12 -->
         </div>
-        <!-- /#wrapper -->
+        <!-- /.row -->
+        <div class="row">
+
+<c:forEach items="${(sessionScope.currentUser).subscribedEvents}" var="subEvent" >
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        ${subEvent.tittle}
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#home" data-toggle="tab">Home</a>
+                            </li>
+                            <li><a href="#profile" data-toggle="tab">Detail</a>
+                            </li>
+                            <li><a href="#messages" data-toggle="tab">Routing</a>
+                            </li>
+
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="home">
+                                <h4>Home Tab</h4>
+                            <p>${subEvent.shortdiscription}</p>
+                             </div>
+                            <div class="tab-pane fade" id="profile">
+                                <h4>Detail</h4>
+                            <p>${subEvent.longDescription}</p>
+                            </div>
+                            <div class="tab-pane fade" id="messages">
+                                <h4>Routing Points</h4>
+                                   From ${subEvent.from} Through ${subEvent.via} and Finaly to ${subEvent.to}
 
 
+                             </div>
 
-        <!-- jQuery -->
-        <script src="Res/vendor/jquery/jquery.min.js"></script>
+                        </div>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-6 -->
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="Res/vendor/bootstrap/js/bootstrap.min.js"></script>
+            <!-- /.col-lg-6 -->
+        </div>
 
-        <!-- Metis Menu Plugin JavaScript -->
-        <script src="Res/vendor/metisMenu/metisMenu.min.js"></script>
+</c:forEach>
+        <!-- /.row -->
 
-        <!-- Custom Theme JavaScript -->
-        <script src="Res/dist/js/sb-admin-2.js"></script>
+        <!-- /.row -->
+
+        <!-- /.row -->
+    </div>
+    <!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="Res/vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="Res/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="Res/vendor/metisMenu/metisMenu.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="Res/dist/js/sb-admin-2.js"></script>
 
 </body>
 

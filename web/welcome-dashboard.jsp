@@ -324,7 +324,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="events.jsp">Subscribed Events</a>
+                                <a href="subscribedEvents.jsp">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>

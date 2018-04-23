@@ -19,7 +19,7 @@ public class Resource {
     private Resource() {
         users = new LinkedList<>();
         users.add(new User("bakhodir@gmail.com", "10", "Bakhodir", "Boydedaev", new Date()));
-        users.add(new User("emanuel@gmail.com", "10", "Emanuel", "Mulat", new Date()));
+        users.add(new User("amanuel@gmail.com", "10", "Emanuel", "Mulat", new Date()));
     }
 
     public static Resource getInstance() {
