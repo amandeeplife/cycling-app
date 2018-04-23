@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Event {
+public class Event implements Comparable<Event> {
 
     private String tittle;
     private Date createdTime = new Date();
@@ -19,12 +19,13 @@ public class Event {
     private Date startingDate;
     private String longDescription;
     private String desciption;
+    private EventStatus status = EventStatus.UPCOMING;
     private List<User> subscribers = new ArrayList<>();
 
     public Event() {
     }
 
-    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption,String longDescription) {
+    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption, String longDescription) {
         this.tittle = tittle;
         this.from = from;
         this.via = via;
@@ -33,9 +34,11 @@ public class Event {
         this.desciption = desciption;
         this.longDescription = longDescription;
     }
+
     public String getLongDiscription() {
         return this.longDescription;
     }
+
     public void setTittle(String title) {
         this.tittle = title;
     }
@@ -94,5 +97,34 @@ public class Event {
 
     public String getDesciption() {
         return desciption;
+    }
+
+    public void setDesciption(String desciption) {
+        this.desciption = desciption;
+    }
+
+    public void setCreatedTime(Date createdTime) {
+        this.createdTime = createdTime;
+    }
+
+    public String getLongDescription() {
+        return longDescription;
+    }
+
+    public void setLongDescription(String longDescription) {
+        this.longDescription = longDescription;
+    }
+
+    public EventStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(EventStatus status) {
+        this.status = status;
+    }
+
+    @Override
+    public int compareTo(Event o) {
+        return this.getStartingDate().getTime() > o.getStartingDate().getTime() ? 1 : 0;
     }
 }

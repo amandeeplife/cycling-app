@@ -42,7 +42,7 @@ public class AuthService {
                 return;
             }
         }
-        response.sendRedirect("login.jsp");
+        request.getRequestDispatcher("login.jsp").forward(request, response);
     }
 
     public void logOut(HttpServletRequest request, HttpServletResponse response) throws IOException {

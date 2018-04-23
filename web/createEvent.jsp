@@ -4,7 +4,7 @@
 
     <link href="Res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="JavaScript/createEvent.js"></script>
+    <script src="JavaScript/createEvent.js"></script>
     <!-- MetisMenu CSS -->
     <link href="Res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
@@ -15,7 +15,7 @@
     <title>Waypoints in directions</title>
     <style>
         #right-panel {
-            font-family: 'Roboto','sans-serif';
+            font-family: 'Roboto', 'sans-serif';
             line-height: 30px;
             padding-left: 10px;
         }
@@ -31,17 +31,20 @@
         #right-panel i {
             font-size: 12px;
         }
+
         html, body {
             height: 100%;
             margin: 0;
             padding: 0;
         }
+
         #map {
             height: 100%;
             float: left;
             width: 60%;
             height: 100%;
         }
+
         #right-panel {
             margin: 20px;
             border-width: 2px;
@@ -51,6 +54,7 @@
             text-align: left;
             padding-top: 0;
         }
+
         #directions-panel {
             margin-top: 10px;
             background-color: #FFEE77;
@@ -64,11 +68,12 @@
 <div id="map"></div>
 <div id="right-panel">
     <div>
-        <button class="btn btn-primary" onclick="window.location.href='/googlemapView.jsp'" >Go to Dashboard</button><br><br>
+        <button class="btn btn-primary" onclick="window.location.href='/googlemapView.jsp'">Go to Dashboard</button>
+        <br><br>
         Please Fill the following information if you would like to create an
         Event!<br><br>
-        Event Title : <input type="text" class="form-control" ><br>
-         <b>Start:</b>
+        Event Title : <input type="text" class="form-control"><br>
+        <b>Start:</b>
         <select id="start">
 
         </select>
@@ -89,7 +94,7 @@
         Discription : <textarea class="form-control" rows="3"></textarea><br>
         Event date : <input id="date" type="date"><br>
     </div>
-    <div id="directions-panel"> </div>
+    <div id="directions-panel"></div>
 </div>
 <script>
     function initMap() {
@@ -101,9 +106,9 @@
         });
         directionsDisplay.setMap(map);
 
-        document.getElementById('submit').addEventListener('click', function() {
+        document.getElementById('submit').addEventListener('click', function () {
             calculateAndDisplayRoute(directionsService, directionsDisplay);
-            console.log(document.getElementById('start').value  +"  " + document.getElementById('end').value+" "+document.getElementById('waypoints'))
+            console.log(document.getElementById('start').value + "  " + document.getElementById('end').value + " " + document.getElementById('waypoints'))
         });
     }
 
@@ -125,7 +130,7 @@
             waypoints: waypts,
             optimizeWaypoints: true,
             travelMode: 'DRIVING'
-        }, function(response, status) {
+        }, function (response, status) {
             if (status === 'OK') {
                 directionsDisplay.setDirections(response);
                 var route = response.routes[0];

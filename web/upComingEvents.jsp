@@ -311,7 +311,7 @@
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="Res/tables.html"><i class="fa fa-table fa-fw"></i> Live Events</a>
+                        <a href="Res/tables.html"><i class="fa fa-table fa-fw"></i> Upcoming Events</a>
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
@@ -397,7 +397,7 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Live Events</h1>
+                <h1 class="page-header">Upcoming events</h1>
 
                 <div class="row">
                     <div class="col-lg-12">
@@ -462,7 +462,8 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="Res/dist/js/sb-admin-2.js"></script>
-
+    </div>
+</div>
 </body>
 
 </html>
