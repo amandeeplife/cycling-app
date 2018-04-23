@@ -29,7 +29,7 @@ public class EventParticipate extends HttpServlet {
         this.eventService.participate(tittle);
         resp.setContentType("application/json");
         resp.setCharacterEncoding("UTF-8");
-//        resp.getWriter().write("success");
+        resp.getWriter().write("success");
     }
 
     @Override

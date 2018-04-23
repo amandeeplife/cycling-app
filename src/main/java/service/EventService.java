@@ -12,15 +12,15 @@ import java.util.List;
 public class EventService {
     private List<User> users = Resource.getUsers();
 
-    public List<JSONObject> getAllUpcoming(User currentUser) {
+    public List<JSONObject> getAllUpcoming() {
+        User currentUser = Resource.getCurrentUser();
         List<JSONObject> results = new LinkedList<>();
         for (User u : users) {
-
-            if (u.getUsername().equals(currentUser.getUsername())) continue;
+            if (currentUser.equals(u)) continue;
             List<Event> eventList = u.getCreatedEvents();
-
             for (Event event : eventList) {
                 JSONObject res = new JSONObject();
+                if (currentUser.getSubscribedEvents().contains(event)) continue;
                 if (event.getStatus() == EventStatus.UPCOMING) {
                     res.put("tittle", event.getTittle());
                     res.put("startingDate", event.getStartingDate());

@@ -24,8 +24,7 @@ public class UpEventController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        User currentUser = (User) req.getSession().getAttribute("currentUser");
-        List<JSONObject> jsonObjects = this.eventService.getAllUpcoming(currentUser);
+        List<JSONObject> jsonObjects = this.eventService.getAllUpcoming();
         req.setAttribute("eventList", jsonObjects);
         req.getRequestDispatcher("upComingEvents.jsp").forward(req, resp);
     }

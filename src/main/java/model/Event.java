@@ -8,6 +8,7 @@ package model;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 public class Event implements Comparable<Event> {
 
@@ -26,18 +27,15 @@ public class Event implements Comparable<Event> {
     public Event() {
     }
 
-    public Event(String tittle, String from, String via, String to, String shortdisciption, String longDescription ,Date startingDate) {
+    public Event(String tittle, String from, String via, String to, String shortdisciption, String longDescription, Date startingDate) {
         this.tittle = tittle;
         this.from = from;
         this.via = via;
         this.to = to;
         this.shortdiscription = shortdisciption;
         this.startingDate = startingDate;
-         this.longDescription = longDescription;
+        this.longDescription = longDescription;
     }
-
-
-
 
     public void setTittle(String title) {
         this.tittle = title;
@@ -92,13 +90,9 @@ public class Event implements Comparable<Event> {
         return startingDate;
     }
 
-
-
     public void setCreatedTime(Date createdTime) {
         this.createdTime = createdTime;
     }
-
-
 
     public EventStatus getStatus() {
         return status;
@@ -112,16 +106,34 @@ public class Event implements Comparable<Event> {
     public int compareTo(Event o) {
         return this.getStartingDate().getTime() > o.getStartingDate().getTime() ? 1 : 0;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Event event = (Event) o;
+        return this.tittle.equals(event.getTittle());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(tittle, createdTime, from, via, to, startingDate, shortdiscription, longDescription, status);
+    }
+
     public String getLongDescription() {
         return this.longDescription;
     }
-    public void setLongDescription(String st){
+
+    public void setLongDescription(String st) {
         this.longDescription = st;
     }
+
     public String getShortdiscription() {
-    return this.shortdiscription;
+        return this.shortdiscription;
     }
-    public void setShortdiscription(String st){
+
+    public void setShortdiscription(String st) {
         this.shortdiscription = st;
     }
 }
