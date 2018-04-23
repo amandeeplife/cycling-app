@@ -27,8 +27,9 @@ public class EventService {
                     res.put("from", event.getFrom());
                     res.put("via", event.getVia());
                     res.put("to", event.getTo());
-                    res.put("description", event.getDesciption());
-                    res.put("longDescription", event.getLongDiscription());
+                    res.put("shortDescription", event.getShortdiscription());
+                    res.put("longDescription", event.getLongDescription());
+
                     results.add(res);
                 }
             }

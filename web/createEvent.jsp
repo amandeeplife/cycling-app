@@ -96,8 +96,9 @@
         <select name="eventEnd" id="end">
         </select>
         <br>
-        Discription : <textarea name = "eventDescription" class="form-control" rows="3"></textarea><br>
-        Event date : <input id="date" type="date"><br>
+            Short Discription : <input type="text" name="eventShortSummary" id=""><br>
+            Summary : <textarea name = "eventSummary" class="form-control" rows="3"></textarea><br>
+        Event date : <input name="eventDate" id="date" type="date"><br>
             <input type="hidden" name="username" value="${sessionScope.currentUser.username}" >
             <input type="submit" value="Save Changes">
         </form>

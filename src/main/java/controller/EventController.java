@@ -20,7 +20,11 @@ public class EventController extends HttpServlet {
          Event ev = new Event();
          ev.setTittle(request.getParameter("eventTitle"));
         ev.setFrom(request.getParameter("eventTitle"));
-
+        ev.setShortdiscription(request.getParameter("eventShortSummary"));
+        ev.setLongDescription(request.getParameter("eventSummary"));
+        ev.setFrom(request.getParameter("eventStart"));
+        ev.setTo(request.getParameter("eventEnd"));
+        ev.setVia(request.getParameter("eventWayPoints"));
         user.addEvent(ev);
          response.sendRedirect("createEvent.jsp");
      }

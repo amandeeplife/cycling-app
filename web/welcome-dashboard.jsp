@@ -440,7 +440,7 @@ if(session.getAttribute("currentUser")==null){
 
                         <div class="panel panel-primary">
                             <div class="panel-heading">
-                                <div><h3   style="color: yellow">${event.tittle}</h3></div>
+                                <div><h3   style="color: yellow">${event.tittle} on ${event.startingDate}</h3></div>
                                 <div class="row">
                                     <div class="col-xs-3">
                                         <i class="fa fa-support fa-5x"></i>
@@ -448,14 +448,23 @@ if(session.getAttribute("currentUser")==null){
                                     <div class="col-xs-9 text-right">
                                         <div class="huge">
                                         </div>
-                                        <div>${event.desciption}</div>
+                                        <div>${event.shortdiscription}</div>
 
                                     </div>
                                 </div>
                             </div>
                             <a href="#">
                                 <div class="panel-footer">
-                                      ${event.longDescription}
+                                    <span style="color:darkred; float: right" >
+                                        <div>Starting Location :${event.from}</div>
+
+                                        <div>Destination :${event.to}</div>
+                                        <div>Way Points :${event.via}</div>
+        <br><br>
+
+                                    </span>
+                                    <h4 style="clear: both">Summary :</h4>
+                                        ${event.longDescription}
                                  <div class="clearfix"></div>
                                 </div>
                             </a>

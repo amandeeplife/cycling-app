@@ -17,29 +17,27 @@ public class Event implements Comparable<Event> {
     private String via;
     private String to;
     private Date startingDate;
+    private String shortdiscription;
     private String longDescription;
-    private String desciption;
+
     private EventStatus status = EventStatus.UPCOMING;
     private List<User> subscribers = new ArrayList<>();
 
     public Event() {
     }
 
-    public Event(String tittle, String from, String via, String to, Date startingDate, String desciption, String longDescription) {
+    public Event(String tittle, String from, String via, String to, String shortdisciption, String longDescription ,Date startingDate) {
         this.tittle = tittle;
         this.from = from;
         this.via = via;
         this.to = to;
+        this.shortdiscription = shortdisciption;
         this.startingDate = startingDate;
-        this.desciption = desciption;
-        this.longDescription = longDescription;
+         this.longDescription = longDescription;
     }
 
 
 
-    public String getLongDiscription() {
-        return this.longDescription;
-    }
 
     public void setTittle(String title) {
         this.tittle = title;
@@ -57,9 +55,6 @@ public class Event implements Comparable<Event> {
         this.via = via;
     }
 
-    public void setDiscription(String desciption) {
-        this.desciption = desciption;
-    }
 
     public void setStartingDate(Date date) {
         this.startingDate = date;
@@ -97,25 +92,13 @@ public class Event implements Comparable<Event> {
         return startingDate;
     }
 
-    public String getDesciption() {
-        return desciption;
-    }
 
-    public void setDesciption(String desciption) {
-        this.desciption = desciption;
-    }
 
     public void setCreatedTime(Date createdTime) {
         this.createdTime = createdTime;
     }
 
-    public String getLongDescription() {
-        return longDescription;
-    }
 
-    public void setLongDescription(String longDescription) {
-        this.longDescription = longDescription;
-    }
 
     public EventStatus getStatus() {
         return status;
@@ -128,5 +111,17 @@ public class Event implements Comparable<Event> {
     @Override
     public int compareTo(Event o) {
         return this.getStartingDate().getTime() > o.getStartingDate().getTime() ? 1 : 0;
+    }
+    public String getLongDescription() {
+        return this.longDescription;
+    }
+    public void setLongDescription(String st){
+        this.longDescription = st;
+    }
+    public String getShortdiscription() {
+    return this.shortdiscription;
+    }
+    public void setShortdiscription(String st){
+        this.shortdiscription = st;
     }
 }
