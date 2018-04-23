@@ -327,7 +327,7 @@ if(session.getAttribute("currentUser")==null){
                                 <a href="events.jsp">Subscribed Events</a>
                             </li>
                             <li>
-                                <a href="events.jsp">Your Events</a>
+                                <a href="/upcomingEvents">Upcoming Events</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
@@ -423,7 +423,7 @@ if(session.getAttribute("currentUser")==null){
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Dashboard</h1>
-                <<input type="submit" onclick="window.location.href='/createEvent.jsp'" id="" class="btn btn-success" style="float: right" id="createEvent" value = " Create Cycling Event!">
+                <input type="submit" onclick="window.location.href='/createEvent.jsp'" id="" class="btn btn-success" style="float: right" id="createEvent" value = " Create Cycling Event!">
                 <!-- Modal -->
 
                 <br><br>
