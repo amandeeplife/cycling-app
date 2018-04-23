@@ -20,7 +20,7 @@ public class Event implements Comparable<Event> {
     private String shortdiscription;
     private String longDescription;
 
-    private EventStatus status = EventStatus.UPCOMING;
+    private EventStatus status = EventStatus.ONGOING;
     private List<User> subscribers = new ArrayList<>();
 
     public Event() {

@@ -37,7 +37,7 @@ public class EventService {
         return results;
     }
 
-    public List<JSONObject> getAllLiveEvents(User currentUser) {
+    public List<JSONObject> getAllLiveEvents() {
         List<JSONObject> results = new LinkedList<>();
         for (User u : users) {
             List<Event> eventList = u.getCreatedEvents();
@@ -58,6 +58,7 @@ public class EventService {
         }
         return results;
     }
+
 
     public void participate(String eventName) {
         User currentUser = Resource.getCurrentUser();

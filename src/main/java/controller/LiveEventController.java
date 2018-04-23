@@ -25,7 +25,7 @@ public class LiveEventController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         User currentUser = (User) req.getSession().getAttribute("currentUser");
-        List<JSONObject> jsonObjects = this.eventService.getAllLiveEvents(currentUser);
+        List<JSONObject> jsonObjects = this.eventService.getAllLiveEvents();
         req.setAttribute("eventList", jsonObjects);
         req.getRequestDispatcher("liveevents.jsp").forward(req, resp);
     }
