@@ -324,7 +324,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="events.jsp">Subscribed Events</a>
+                                <a href="subscribedEvents.jsp">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>
@@ -333,7 +333,7 @@ if(session.getAttribute("currentUser")==null){
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="liveevents.jsp"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
+                        <a href="/liveEvents"><i class="fa fa-table fa-fw"></i> Live Cycling Rides</a>
                     </li>
                     <li>
                         <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>

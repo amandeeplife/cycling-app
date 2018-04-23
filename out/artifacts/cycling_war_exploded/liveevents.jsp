@@ -451,6 +451,8 @@
         </div>
         <!-- /#wrapper -->
 
+
+
         <!-- jQuery -->
         <script src="Res/vendor/jquery/jquery.min.js"></script>
 

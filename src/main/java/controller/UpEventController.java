@@ -29,10 +29,5 @@ public class UpEventController extends HttpServlet {
         req.setAttribute("eventList", jsonObjects);
         req.getRequestDispatcher("upComingEvents.jsp").forward(req, resp);
     }
-
-    @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPut(req, resp);
-    }
 }
 
