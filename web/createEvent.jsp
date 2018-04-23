@@ -112,16 +112,18 @@
 <script>
     $(function () {
       $("#eventCreate").submit(function (event) {
-console.log( $("#title").val().length+"text for title");
-          if( $("#title").val().length === 0 ){
+           if( $("#title").val().length === 0 ){
               console.log("please Fill ou the data")
               event.preventDefault();
               $("#msg").append("<p style='color: red'>Please input Title</p>")
 
           }
+
+
       })
     }
     )
+
 
 
     function initMap() {

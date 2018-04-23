@@ -26,7 +26,7 @@ public class EventController extends HttpServlet {
         ev.setTo(request.getParameter("eventEnd"));
         ev.setVia(request.getParameter("eventWayPoints"));
         user.addEvent(ev);
-         response.sendRedirect("createEvent.jsp");
+         response.sendRedirect("welcome-dashboard.jsp");
      }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
