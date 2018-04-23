@@ -456,7 +456,7 @@ if(session.getAttribute("currentUser")==null){
                                     </div>
                                 </div>
                             </div>
-                            <a href="#">
+
                                 <div class="panel-footer">
                                     <span style="color:darkred; float: right" >
                                         <div>Starting Location :${event.from}</div>

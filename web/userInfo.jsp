@@ -363,14 +363,17 @@
                     <div class="panel-heading">
                         ${user.firstName}
                     </div>
+                    <div style="background-image: url(bk.jpg)">
                     <br><br>
                     <div style="width: 20%; margin: auto" >   <img src="https://images.unsplash.com/profile-1462285601040-a9bcbb6514fd?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff">
                     </div>
-                    <br>
-                    <div style=" margin-left:10px"> Eamil:   ${user.username}</div>
-        <hr>
+                        <hr>
+
+                        <div style=" margin-left:10px"> Eamil:   ${user.username}</div><hr></div>
+
                     <div class="panel-body">
-                        <p> No of Event Created :  ${fn:length(user.createdEvents)}</p>
+                        <p> No of Event/s Created :  ${fn:length(user.createdEvents)}</p>
+                        <p> No of Event/s Subscribed :  ${fn:length(user.subscribedEvents)}</p>
                         <c:forEach items="${user.createdEvents}" var="ev">
                           Title :   ${ev.tittle}<br>
                             Short Discription :   ${ev.shortdiscription} <br>
