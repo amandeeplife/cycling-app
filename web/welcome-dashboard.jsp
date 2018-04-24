@@ -10,7 +10,8 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JavaScript/dashboard.js"></script>
+    <script src="JavaScript/dashboard.js" type="application/javascript"></script>
+    <script src="JavaScript/manageEvent.js" type="application/javascript"></script>
     <title>Title</title>
 </head>
     <%
