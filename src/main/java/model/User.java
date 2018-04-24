@@ -33,11 +33,14 @@ public class User {
         this.dob = dob;
         currentLocation = "test";
         createdEvents.add(new Event("Cycle challenge", "Fairfield",
-                "Chicago", "Ottumuwa", "This is short discription for own event", "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s," +
-                " when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", new Date()));
+                "Chicago", "Ottumuwa",
+                "This is short discription for own event", "Lorem Ipsum is simply dummy text of " +
+                "the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the" +
+                " 1500s," + " more recently with desktop publishing software like Aldus PageMaker including versions of Lorem ", new Date()));
 
-        Event e = new Event("For the good life", "Washington", "Texas", "San Francisco", "this is short discription for subscribed event",
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more " +
+        Event e = new Event("For the good life", "Washington", "Texas", "San Francisco",
+                "this is short discription for subscribed event",
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" +
                         "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", new Date());
         e.getSubscribers().add(this);
         subscribedEvents.add(e);
@@ -47,10 +50,15 @@ public class User {
     public String getUsername() {
         return username;
     }
+
     public String getCurrentLocation() {
         return this.currentLocation;
     }
-    public void setCurrentLocation(String loc){this.currentLocation = loc;}
+
+    public void setCurrentLocation(String loc) {
+        this.currentLocation = loc;
+    }
+
     public String getPassword() {
         return password;
     }
@@ -62,6 +70,7 @@ public class User {
     public String getEmergencySFlag() {
         return emergencyFlag;
     }
+
     public String getLastName() {
         return lastName;
     }

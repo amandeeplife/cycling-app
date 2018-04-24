@@ -1,20 +1,17 @@
 $(document).ready(function () {
 
-    $("#controllButton").click(function () {
-        var controllButton = $("#controllButton");
+    $("#startButton").click(function () {
         var eventName = $(this).attr("data-title");
-        if ($(this).innerText === "Stop") {
-            controllButton.attr('value', 'Stop').css('background-color', '#da534f');
-            updateEventStatus(eventName, "COMPLETED");
-        }
-        else if ($(this).innerText !== "Start Ride") {
-            controllButton.attr('value', 'Stop').css('background-color', '#da534f');
-            updateEventStatus(eventName, "ONGOING");
-        }
+        updateEventStatus(eventName, "ONGOING");
+    });
+
+    $("#finishButton").click(function () {
+        var eventName = $(this).attr("data-title");
+        updateEventStatus(eventName, "COMPLETED");
     });
 
     function updateEventStatus(eventName, statusType) {
-        $.post("/emergency", {
+        $.post("/manageEvent", {
             eventName: eventName,
             statusType: statusType
         }).done(function (data) {

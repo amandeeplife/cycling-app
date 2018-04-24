@@ -25,15 +25,11 @@ public class EmerController extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         String currentLoc = request.getParameter("currentLocation");
-        if(currentLoc!=null) {
+        if (currentLoc != null) {
             User currentUser = Resource.getCurrentUser();
             currentUser.setCurrentLocation(currentLoc);
         }
         System.out.print(currentLoc);
-
-        String eventName = request.getParameter("eventName");
-        String statusType = request.getParameter("statusType");
-        this.emerService.updateStatus(eventName, statusType);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
