@@ -45,7 +45,7 @@
 
     <!-- Morris Charts CSS -->
     <link href="Res/vendor/morrisjs/morris.css" rel="stylesheet">
-
+<script src="JavaScript/emergencyFlag.js"></script>
     <!-- Custom Fonts -->
     <link href="Res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
@@ -434,7 +434,7 @@
                 <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
 
                 <div class="col-lg-6 col-m d-6">
-                    <button class="flag btn btn-danger"
+                    <button onclick="emergencyHandler('${event.tittle}' )" class="flag btn btn-danger"
                             data-title='" + ${event.tittle} + "' style="float: right" data-toggle="modal"
                             data-target="#delete">
                         Emergency Flag

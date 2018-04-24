@@ -215,10 +215,10 @@
                             </div>
                             <hr>
 
-                            <div style=" margin-left:10px"> Eamil:   ${user.username}</div><hr></div>
+                            <div style=" margin-left:10px"> Eamil:   ${user.email}</div><hr></div>
 
                         <div class="panel-body">
-                            <p> No of Event/s Created :  ${fn:length(user.createdEvents)}</p>
+                            <p> No of Event/s Created :  ${fn:length(user.createdEvents)} ${user.createdEvents.size}</p>
                             <p> No of Event/s Subscribed :  ${fn:length(user.subscribedEvents)}</p>
                             <c:forEach items="${user.createdEvents}" var="ev">
                                 Title :   ${ev.tittle}<br>

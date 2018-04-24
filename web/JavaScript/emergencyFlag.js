@@ -53,15 +53,4 @@ function emergencyHandler(data) {
             console.log(data)
         }
     }
-
-//
-// setInterval(function () {
-//         $.ajax({
-//             "url": "Emergency",
-//             "type": "get",
-//             "success": flagFetchSuccess,
-//             "error": flagFetchError
-//         })
-//     }
-//     , 1000)
 }

@@ -19,8 +19,5 @@ $(document).ready(function () {
         });
     }
 
-    $(".flag").on("click", function () {
-        var tittle = $(this).attr("data-tittle");
-        updateEventStatus(tittle, "PENDING")
-    })
+
 });

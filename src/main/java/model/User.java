@@ -66,7 +66,9 @@ public class User {
     public String getFirstName() {
         return firstName;
     }
-
+    public void changeEmergencyFlag(){
+        this.emergencyFlag ="on";
+        }
     public String getEmergencySFlag() {
         return emergencyFlag;
     }

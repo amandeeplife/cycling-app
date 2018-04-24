@@ -1,9 +1,12 @@
 package controller;
 
 import com.google.gson.Gson;
+import model.Event;
+import model.EventStatus;
 import model.User;
 import org.json.simple.JSONObject;
 import service.EmerService;
+import service.EventService;
 import util.Resource;
 
 import javax.servlet.ServletException;
@@ -25,11 +28,20 @@ public class EmerController extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         String currentLoc = request.getParameter("currentLocation");
-        if (currentLoc != null) {
+        if(currentLoc!=null) {
             User currentUser = Resource.getCurrentUser();
             currentUser.setCurrentLocation(currentLoc);
         }
-        System.out.print(currentLoc);
+
+            if(request.getParameter("emergencyFlag")!=null){
+                EventService eventService = new EventService();
+                Event event  = eventService.findByName(request.getParameter("emergencyFlag"));
+                event.setStatus(EventStatus.PENDING);
+                for(User user :event.getSubscribers()){
+                    user.changeEmergencyFlag();
+                }
+                System.out.println("Emergncy Flag"+request.getParameter("emergencyFlag"));
+            }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

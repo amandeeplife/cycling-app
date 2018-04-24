@@ -3,8 +3,15 @@ var address;
 
 $(function () {
 
+    setInterval(function () {
+        manageNotification()
+    },2000)
+
+
 
     //Getting current Location
+    function manageNotification(){
+
     navigator.geolocation.getCurrentPosition(function(position){
         console.log(position)
         address = "Latt" +position.coords.latitude+" \nLang :"+ position.coords.longitude;
@@ -32,7 +39,7 @@ console.log(data+"data")
             $.each(data, function () {
 
                 this.username
-                $("#notificationList").append("<div class=\"col-lg-4\">\n" +
+                $("#notificationList").empty().append("<div class=\"col-lg-4\">\n" +
                     "\n" +
                     "                    <div class=\"panel panel-danger\">\n" +
                     "                        <div class=\"panel-heading\">\n" + this.firstName +
@@ -62,5 +69,6 @@ console.log(data+"data")
     }
     function errorEmergency() {
         console.log("error message")
-    }
+
+    }  }
 })

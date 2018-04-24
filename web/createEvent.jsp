@@ -14,6 +14,7 @@
     <meta charset="utf-8">
     <title>Waypoints in directions</title>
     <link href="Style/createEvent.css">
+    <script src="JavaScript/createEvent.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
 
 </head>
