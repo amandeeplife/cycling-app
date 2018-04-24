@@ -57,7 +57,6 @@ public class User {
     public String getEmergencySFlag() {
         return emergencyFlag;
     }
-
     public String getLastName() {
         return lastName;
     }
