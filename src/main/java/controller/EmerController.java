@@ -1,9 +1,8 @@
 package controller;
 
-import model.Event;
-import model.User;
+import com.google.gson.Gson;
 import org.json.simple.JSONObject;
-import service.EventService;
+import service.EmerService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,59 +10,27 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/Emergency")
+@WebServlet("/emergency")
 public class EmerController extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    private EmerService emerService;
 
-        if(request.getParameter("param")!=null){
-            EventService eventService  =    new EventService();
-            Event event = eventService.findByName(request.getParameter("param"));
-            List<User>  users = event.getSubscribers();
-            System.out.println(request.getParameter("param"));
-        }
+    @Override
+    public void init() {
+        this.emerService = new EmerService();
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+        String eventName = request.getParameter("eventName");
+        this.emerService.updateStatus(eventName, "STOPPED");
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<String> list = new ArrayList<>();
-        list.add("item1");
-        list.add("item2");
-        list.add("item3");
-        response.setContentType("application/json;charset=UTF-8");
-
-        PrintWriter out = response.getWriter();
-        JSONObject arr = new JSONObject();
-        JSONObject obj1 = new JSONObject();
-        JSONObject obj2 = new JSONObject();
-        JSONObject obj4 = new JSONObject();
-        JSONObject obj5 = new JSONObject();
-        JSONObject obj6 = new JSONObject();
-
-        obj1.put("text", "abc");
-        obj1.put("url", "abc.com");
-        obj1.put("leaf", true);
-
-        obj4.put("text", "klm");
-        obj4.put("url", "klm.com");
-        obj4.put("leaf", true);
-
-        obj5.put("text", "xyz");
-        obj5.put("url", "xyz.com");
-        obj5.put("leaf", true);
-
-        obj6.put("text", "pqr");
-        obj6.put("url", "pqr.com");
-        obj6.put("leaf", true);
-//        arr.add(obj1);
-//        arr.add(obj4);
-//        arr.add(obj5);
-//        arr.add(obj6);
-        obj2.put("items",arr);
-        JSONObject arrayObj = new JSONObject();
-     //   arrayObj.put("hellow");
-        out.println(obj1);
+        List<JSONObject> jsonObjects = this.emerService.notifyEvent();
+        String json = new Gson().toJson(jsonObjects);
+        response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write(json);
     }
 }

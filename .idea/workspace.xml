@@ -6,13 +6,194 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="">
+    <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/EmerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EventParticipate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/EventParticipate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UpEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UpEventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cycling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cycling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/JavaScript/createEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/JavaScript/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/MapFiles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/data/flot-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/data/morris-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/css/sb-admin-2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/css/sb-admin-2.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/js/sb-admin-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/js/sb-admin-2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/js/sb-admin-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/sb-admin-2.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/loginPage/indexPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/loginPage/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/panels-wells.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.jqueryui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.material.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.material.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.semanticui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.semanticui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.uikit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.uikit.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables_themeroller.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/Sorting icons.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.foundation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.material.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.material.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.semanticui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.semanticui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.uikit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.uikit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.source.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/extras.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/spinning.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_extras.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_spinning.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/raphael/raphael.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/raphael/raphael.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/createEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/liveevents.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/welcome-dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/EmerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/EmerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/EventStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EventStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/JavaScript/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/JavaScript/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/welcome-dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome-dashboard.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,58 +206,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="upComingEvent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/JavaScript/upComingEvent.js">
+      <file leaf-file-name="welcome-dashboard.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="144">
+              <caret line="337" column="24" lean-forward="true" selection-start-line="337" selection-start-column="24" selection-end-line="337" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
+      <file leaf-file-name="EmerController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+            <state relative-caret-position="198">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Event.java">
+      <file leaf-file-name="EmerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/EmerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-              <folding>
-                <element signature="e#1473#1474#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#2860#2861#0" expanded="true" />
-                <element signature="e#2901#2902#0" expanded="true" />
-                <element signature="e#3038#3039#0" expanded="true" />
-                <element signature="e#3080#3081#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpEventController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="215">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +256,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>users</find>
-      <find>c:</find>
       <find>lore</find>
       <find>timeline-badge</find>
       <find>getD</find>
@@ -130,6 +284,8 @@
       <find>userName</find>
       <find>live</find>
       <find>ajax</find>
+      <find>User</find>
+      <find>c:</find>
     </findStrings>
     <replaceStrings>
       <replace>fa-support</replace>
@@ -143,8 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/index2.html" />
         <option value="$PROJECT_DIR$/web/indexPage.js" />
         <option value="$PROJECT_DIR$/web/style.css" />
         <option value="$PROJECT_DIR$/web/Res/loginPage/indexPage.js" />
@@ -168,11 +322,8 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/LogoutController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/DashboardController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Resource.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/UtilService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/EventStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/JavaScript/createEvent.js" />
         <option value="$PROJECT_DIR$/web/Res/vendor/morrisjs/morris.min.js" />
@@ -181,17 +332,24 @@
         <option value="$PROJECT_DIR$/web/upComingEvents.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/RegUserController.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/service/AuthService.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UpcomingEventController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/EmerController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" />
-        <option value="$PROJECT_DIR$/web/welcome-dashboard.jsp" />
         <option value="$PROJECT_DIR$/web/JavaScript/upComingEvent.js" />
         <option value="$PROJECT_DIR$/src/main/java/controller/EventParticipate.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UpEventController.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" />
+        <option value="$PROJECT_DIR$/web/welcome-dashboard.jsp" />
+        <option value="$PROJECT_DIR$/web/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AuthService.java" />
+        <option value="$PROJECT_DIR$/web/JavaScript/dashboard.js" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/EventStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/EmerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/EmerController.java" />
       </list>
     </option>
   </component>
@@ -259,13 +417,37 @@
             <path>
               <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +465,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="cycling-app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/json-simple-1.1.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/gson-2.8.2.jar!/" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -293,18 +475,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Angular" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web" />
       <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\Res\loginPage" />
-      <recent name="C:\Users\Amanuel\Documents\PlayGround\cycling\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -321,8 +503,9 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/util/Resource.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/liveevents.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/model/Event.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/JavaScript/dashboard.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/subscribedEvents.jsp</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/web/welcome-dashboard.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -331,7 +514,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/web/subscribedEvents.jsp</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -573,7 +755,7 @@
       <workItem from="1524468855535" duration="1143000" />
       <workItem from="1524497215537" duration="1918000" />
       <workItem from="1524499276666" duration="4217000" />
-      <workItem from="1524508025170" duration="11666000" />
+      <workItem from="1524508025170" duration="16811000" />
     </task>
     <task id="LOCAL-00001" summary="Front End for Event Creating, Listing Events">
       <created>1524370655680</created>
@@ -680,11 +862,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524519126535</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changes">
+      <created>1524522715695</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1524522715695</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80103000" />
+    <option name="totallyTimeSpent" value="85248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
@@ -701,7 +890,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.17446472" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" weight="0.275" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" visible="true" weight="0.3078125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3265625" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -711,8 +900,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.4609375" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.16970658" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.21649484" />
       <window_info id="Web" order="2" sideWeight="0.5046875" side_tool="true" weight="0.19429025" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -720,7 +910,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32905984" />
@@ -790,7 +979,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Front End for Event Creating, Listing Events" />
-    <MESSAGE value="changes" />
     <MESSAGE value="latest version" />
     <MESSAGE value="sign up part is being built" />
     <MESSAGE value="JSon and AJAX updated. Google map implemented." />
@@ -800,7 +988,8 @@
     <MESSAGE value="some changes" />
     <MESSAGE value="live event servlet" />
     <MESSAGE value="participate function implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="participate function implemented" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -811,8 +1000,26 @@
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/EmerService.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/EmerController.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/EmerController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="74" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -853,27 +1060,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/Res/pages/notifications.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Res/pages/forms.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="406" column="95" selection-start-line="406" selection-start-column="44" selection-end-line="406" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Res/pages/panels-wells.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="276" column="37" selection-end-line="715" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/Res/vendor/bootstrap-social/bootstrap-social.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -954,24 +1140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/EventStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1052,26 +1224,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="331" column="29" lean-forward="true" selection-start-line="331" selection-start-column="29" selection-end-line="331" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1079,45 +1231,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/JavaScript/createEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/JavaScript/dashboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1176,18 +1293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -1203,30 +1308,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="448">
+          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LiveEventController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="28" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="353" column="32" lean-forward="true" selection-start-line="353" selection-start-column="32" selection-end-line="353" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JavaScript/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="174">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/EventStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="31" column="23" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1814#1815#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1881#1882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/welcome-dashboard.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="337" column="24" lean-forward="true" selection-start-line="337" selection-start-column="24" selection-end-line="337" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EmerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/EmerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,7 +1515,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>json-simple-1.1.1</last-edited>
+          <last-edited>gson-2.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

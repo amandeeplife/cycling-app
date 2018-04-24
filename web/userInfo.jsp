@@ -356,7 +356,7 @@
         <!-- /.row -->  <div class="col-lg-12">
         <div class="row">
 
-        <c:forEach items="${sessionScope.AllUser}" var="user">
+        <c:forEach items="${requestScope.userList}" var="user">
             <div class="col-lg-4">
 
                 <div class="panel panel-info">

@@ -343,7 +343,7 @@ if(session.getAttribute("currentUser")==null){
                         <a href="pages/forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a>
                     </li>
                     <li>
-                        <a href="userInfo.jsp"><i class="fa fa-edit fa-fw"></i> All Users</a>
+                        <a href="/userInfo"><i class="fa fa-edit fa-fw"></i> All Users</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"></i> UI Elements<span class="fa arrow"></span></a>
@@ -469,9 +469,13 @@ if(session.getAttribute("currentUser")==null){
                                     <h4 style="clear: both">Summary :</h4>
                                         ${event.longDescription}
                                  <div class="clearfix"></div>
-                                </div>
-                            </a>
+                                    </a>
+                            <br>  </div>
+                            <input type="button" id="controllButton" style="border-radius: unset" value="Start Ride" class="btn btn-success btn-lg btn-block"></button>
+
+
                         </div>
+
                         </div>
                     </c:forEach>
 

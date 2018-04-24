@@ -1,6 +1,5 @@
 package service;
 
-import model.Event;
 import model.User;
 import util.Resource;
 
@@ -35,10 +34,9 @@ public class AuthService {
         if (errorPassword.isEmpty() && errorUsername.isEmpty()) {
             User user = userService.getUserByName(username, password);
 
-               List<User> users = userService.getAllUsers();
+            List<User> users = userService.getAllUsers();
             if (user != null) {
                 request.getSession().setAttribute("currentUser", user);
-                request.getSession().setAttribute("AllUser", users);
                 Resource.setCurrentUser(user);
                 response.sendRedirect("welcome-dashboard.jsp");
                 return;

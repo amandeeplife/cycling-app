@@ -10,6 +10,7 @@ import model.User;
 import org.json.simple.JSONObject;
 import util.Resource;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -17,26 +18,18 @@ public class UserService {
 
     private List<User> users = Resource.getUsers();
 
-    public JSONObject[] getAll() {
+    public List<JSONObject> getAll() {
 
-        if (users.size() > 0) {
-            JSONObject[] results = new JSONObject[users.size()];
-            for (int i = 0; i < users.size(); i++) {
-                JSONObject res = new JSONObject();
-                User u = users.get(i);
-                res.put("firstName", u.getFirstName());
-                res.put("lastName", u.getLastName());
-                res.put("dob", u.getDob());
-                results[i] = res;
-            }
-            return results;
+        List<JSONObject> results = new ArrayList<>();
+        for (User u : users) {
+            JSONObject res = new JSONObject();
+            res.put("email", u.getUsername());
+            res.put("firstName", u.getFirstName());
+            res.put("lastName", u.getLastName());
+            res.put("dob", u.getDob());
+            results.add(res);
         }
-
-        JSONObject[] objectToReturn = new JSONObject[1];
-        JSONObject res = new JSONObject();
-        res.put("error", "No results found");
-        objectToReturn[0] = res;
-        return objectToReturn;
+        return results;
     }
 
     public User getUserByName(String username) {
@@ -53,10 +46,12 @@ public class UserService {
         if (resultList.size() != 1) return null;
         return resultList.get(0);
     }
-    public void setUsers(List<User> users){
+
+    public void setUsers(List<User> users) {
         this.users = users;
     }
-    public List<User> getAllUsers(){
+
+    public List<User> getAllUsers() {
         return users;
     }
 }

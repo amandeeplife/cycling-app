@@ -396,62 +396,45 @@
 
     <div id="page-wrapper">
         <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Live Events</h1>
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Upcoming events
-                            </div>
-                            <!-- /.panel-heading -->
-                            <div class="panel-body">
-                                <table width="100%" class="table table-striped table-bordered table-hover"
-                                       id="dataTables-example">
-                                    <thead>
-                                    <tr>
-                                        <th>Tittle</th>
-                                        <th>Starting date</th>
-                                        <th>From</th>
-                                        <th>Via</th>
-                                        <th>To</th>
-                                        <th>Description</th>
-                                        <th>Remove</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <c:forEach items="${requestScope.eventList}" var="event">
-                                        <tr class="odd gradeX">
-                                            <td>${event.tittle}</td>
-                                            <td>${event.startingDate}</td>
-                                            <td>${event.from}</td>
-                                            <td>${event.via}</td>
-                                            <td>${event.to}</td>
-                                            <td>${event.desciption}</td>
-                                            <td>
-                                                <button class="btn btn-danger">Remove</button>
-                                            </td>
-                                        </tr>
-                                    </c:forEach>
-
-
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!-- /.panel-body -->
-                        </div>
-                        <!-- /.panel -->
-                    </div>
-                    <!-- /.col-lg-12 -->
-                </div>
-            </div>
             <!-- /#page-wrapper -->
 
         </div>
         <!-- /#wrapper -->
 
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <i class="fa fa-clock-o fa-fw"></i> On going Events Today
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <ul class="timeline">
+                    <c:forEach items="${requestScope.eventList}" var="event">
 
+                    <li>
+                        <div class="timeline-badge"><i class="fa fa-check"></i>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">${event.tittle}</h4>
+                                <p>
+                                    <small class="text-muted"><i class="fa fa-clock-o"></i> ${event.from}${event.via}${event.to}
+                                    </small>
+                                </p>
+                            </div>
+                            <div class="timeline-body">
+                                <p> ${event.longDescription}</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    </c:forEach>
+
+
+                </ul>
+            </div>
+            <!-- /.panel-body -->
+        </div>
 
         <!-- jQuery -->
         <script src="Res/vendor/jquery/jquery.min.js"></script>
