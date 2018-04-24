@@ -32,7 +32,8 @@ public class EmerController extends HttpServlet {
         System.out.print(currentLoc);
 
         String eventName = request.getParameter("eventName");
-        this.emerService.updateStatus(eventName, "STOPPED");
+        String statusType = request.getParameter("statusType");
+        this.emerService.updateStatus(eventName, statusType);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

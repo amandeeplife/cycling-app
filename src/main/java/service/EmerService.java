@@ -23,6 +23,7 @@ public class EmerService {
         Event event = this.eventService.findByName(eventName);
         if (eventStatus.equals(EventStatus.ONGOING.toString())) event.setStatus(EventStatus.ONGOING);
         if (eventStatus.equals(EventStatus.PENDING.toString())) event.setStatus(EventStatus.PENDING);
+        if (eventStatus.equals(EventStatus.COMPLETED.toString())) event.setStatus(EventStatus.COMPLETED);
     }
 
     public List<JSONObject> notifyEvent() {

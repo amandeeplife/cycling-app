@@ -2,23 +2,31 @@ $(document).ready(function () {
 
     $("#controllButton").click(function () {
         var controllButton = $("#controllButton");
-
-        if ($(this).innerText = "Stop") {
+        var eventName = $(this).attr("data-title");
+        if ($(this).innerText === "Stop") {
             controllButton.attr('value', 'Stop').css('background-color', '#da534f');
-
+            updateEventStatus(eventName, "COMPLETED");
         }
-        else if ($(this).innerText != "Start Ride") {
+        else if ($(this).innerText !== "Start Ride") {
             controllButton.attr('value', 'Stop').css('background-color', '#da534f');
+            updateEventStatus(eventName, "ONGOING");
         }
     });
-});
 
-function updateEventStatus(statusType) {
-    $.post("/emergency", {param: statusType})
-        .done(function (data) {
+    function updateEventStatus(eventName, statusType) {
+        $.post("/emergency", {
+            eventName: eventName,
+            statusType: statusType
+        }).done(function (data) {
             console.log("Successful");
         });
-}
+    }
+
+    $(".flag").on("click", function () {
+        var tittle = $(this).attr("data-tittle");
+        updateEventStatus(tittle, "PENDING")
+    })
+});
 
 
 // function emergencyHandler(data) {
