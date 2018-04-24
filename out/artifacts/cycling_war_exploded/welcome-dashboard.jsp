@@ -10,8 +10,8 @@
 <html>
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="JavaScript/dashboard.js" type="application/javascript"></script>
-    <script src="JavaScript/manageEvent.js" type="application/javascript"></script>
+    <script src="js/dashboard.js" type="application/javascript"></script>
+    <script src="js/manageEvent.js" type="application/javascript"></script>
     <title>Title</title>
 </head>
     <%
@@ -35,19 +35,19 @@
     <title></title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="Res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
-    <link href="Res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <link href="res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="Res/dist/css/sb-admin-2.css" rel="stylesheet">
+    <link href="res/dist/css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Morris Charts CSS -->
-    <link href="Res/vendor/morrisjs/morris.css" rel="stylesheet">
-<script src="JavaScript/emergencyFlag.js"></script>
+    <link href="res/vendor/morrisjs/morris.css" rel="stylesheet">
+    <script src="JavaScript/emergencyFlag.js"></script>
     <!-- Custom Fonts -->
-    <link href="Res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,12 +61,8 @@
 <body>
 
 <%
-
-
-%>
-<%
     if (session.getAttribute("currentUser") == null) {
-        //  response.sendRedirect("login.html");
+          response.sendRedirect("login.html");
     }
 %>
 
@@ -356,7 +352,7 @@
                                 <a href="pages/notifications.html">Notifications</a>
                             </li>
                             <li>
-                                <a href="Res/pages/typography.html">Typography</a>
+                                <a href="res/pages/typography.html">Typography</a>
                             </li>
                             <li>
                                 <a href="pages/icons.html"> Icons</a>
@@ -489,24 +485,23 @@
     <!-- /.panel-body -->
 </div>
 <!-- /.panel -->
-</div>
 
 <!-- jQuery -->
-<script src="Res/vendor/jquery/jquery.min.js"></script>
+<script src="res/vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="Res/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="res/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="Res/vendor/metisMenu/metisMenu.min.js"></script>
+<script src="res/vendor/metisMenu/metisMenu.min.js"></script>
 
 <!-- Morris Charts JavaScript -->
-<script src="Res/vendor/raphael/raphael.min.js"></script>
-<script src="Res/vendor/morrisjs/morris.min.js"></script>
-<script src="Res/data/morris-data.js"></script>
+<script src="res/vendor/raphael/raphael.min.js"></script>
+<script src="res/vendor/morrisjs/morris.min.js"></script>
+<script src="res/data/morris-data.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="Res/dist/js/sb-admin-2.js"></script>
+<script src="res/dist/js/sb-admin-2.js"></script>
 
 </body>
 

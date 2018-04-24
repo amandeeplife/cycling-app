@@ -10,10 +10,10 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <title>Login</title>
-    <link rel="stylesheet" href="Res/loginPage/style.css">
+    <link rel="stylesheet" href="res/loginPage/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
             type="application/javascript"></script>
-    <script src="Res/loginPage/indexPage.js" type="application/javascript"></script>
+    <script src="res/loginPage/indexPage.js" type="application/javascript"></script>
 </head>
 <body>
 <nav class="main-nav">
