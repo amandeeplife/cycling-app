@@ -1,12 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/dashboard.js"></script>
-    <title>Title</title>
-</head>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/dashboard.js"></script>
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
 
@@ -69,10 +63,9 @@
         <ul class="nav navbar-top-links navbar-right">
 
 
-
             <!-- /.dropdown -->
             <li class="dropdown">
-                <a id ="notifcationIcon" class="dropdown-toggle"  data-toggle="dropdown" href="#">
+                <a id="notifcationIcon" class="dropdown-toggle" data-toggle="dropdown" href="#">
                     <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-alerts">
@@ -193,7 +186,6 @@
                     </li>
 
 
-
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
@@ -218,22 +210,28 @@
                 <ul class="timeline">
                     <c:forEach items="${requestScope.eventList}" var="event">
 
-                    <li>
-                        <div class="timeline-badge"><i class="fa fa-check"></i>
-                        </div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title">${event.tittle}</h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o"></i>${event.startingDate} ${event.from}${event.via}${event.to}
-                                    </small>
-                                </p>
+                        <li>
+                            <div class="timeline-badge"><i class="fa fa-check"></i>
                             </div>
-                            <div class="timeline-body">
-                                <p> ${event.longDescription}</p>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="timeline-title">${event.tittle}</h4>
+                                    <p>
+                                        <small class="text-muted"><i
+                                                class="fa fa-clock-o"></i>${event.startingDate} ${event.from}${event.via}${event.to}
+                                        </small>
+                                    </p>
+                                </div>
+                                <div class="timeline-body">
+                                    <p> ${event.longDescription}</p>
+                                </div>
+                                <td>
+                                    <button class="btn btn-success" tittle="${event.tittle}">
+                                        Participate
+                                    </button>
+                                </td>
                             </div>
-                        </div>
-                    </li>
+                        </li>
 
                     </c:forEach>
 
@@ -254,7 +252,8 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="res/dist/js/sb-admin-2.js"></script>
-
+    </div>
+</div>
 </body>
 
 </html>

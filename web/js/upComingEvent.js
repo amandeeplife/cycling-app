@@ -4,7 +4,7 @@ $(document).ready(function () {
         console.log(tittle);
         $.post("/participate", {tittle: tittle})
             .done(successFunction);
-
+        alert("you have been subscribed to " + tittle);
     });
 
     function successFunction(tittle) {
