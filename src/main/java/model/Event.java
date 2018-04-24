@@ -25,6 +25,7 @@ public class Event implements Comparable<Event> {
     private List<User> subscribers = new ArrayList<>();
 
     public Event() {
+
     }
 
     public Event(String tittle, String from, String via, String to, String shortdisciption, String longDescription, Date startingDate) {
