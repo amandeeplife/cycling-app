@@ -43,7 +43,9 @@ public class EventService {
         for (User u : users) {
             if (currentUser.equals(u)) continue;
             List<Event> eventList = u.getCreatedEvents();
-            eventList.addAll(eventList);
+            for (Event e : eventList) {
+                events.add(e);
+            }
         }
         Collections.sort(events);
         return events;

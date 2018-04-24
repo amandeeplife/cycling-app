@@ -7,12 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/service/EventServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/liveevents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/liveevents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/upComingEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/upComingEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/liveevents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/liveevents.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/EventService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +31,68 @@
       <file leaf-file-name="liveevents.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+            <state relative-caret-position="108">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpEventController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Resource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="45" />
+              <folding>
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,17 +100,8 @@
       <file leaf-file-name="EventService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/service/EventServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="184">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -120,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/Events.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/util/FilterEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/AuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/web/login.html" />
@@ -144,14 +196,12 @@
         <option value="$PROJECT_DIR$/web/JavaScript/upComingEvent.js" />
         <option value="$PROJECT_DIR$/src/main/java/controller/EventParticipate.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/LiveEventController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/AuthService.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/EventStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/EmerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/EmerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/ManageEventController.java" />
         <option value="$PROJECT_DIR$/web/JavaScript/createEvent.js" />
@@ -170,7 +220,11 @@
         <option value="$PROJECT_DIR$/web/js/upComingEvent.js" />
         <option value="$PROJECT_DIR$/web/liveevents.jsp" />
         <option value="$PROJECT_DIR$/src/test/service/EventServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/service/EmerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/service/UserServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/AuthService.java" />
       </list>
     </option>
   </component>
@@ -241,31 +295,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -473,7 +516,7 @@
       <workItem from="1524508025170" duration="19509000" />
       <workItem from="1524581973965" duration="8924000" />
       <workItem from="1524596007513" duration="11843000" />
-      <workItem from="1524610763400" duration="949000" />
+      <workItem from="1524610763400" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="Front End for Event Creating, Listing Events">
       <created>1524370655680</created>
@@ -664,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524608597048</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added test">
+      <created>1524612196985</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1524612196987</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109662000" />
+    <option name="totallyTimeSpent" value="110805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
@@ -685,7 +735,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.17446472" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" weight="0.3625" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" weight="0.39375" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3265625" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -695,7 +745,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28125" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.19587629" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.19587629" />
       <window_info id="Web" order="2" sideWeight="0.5046875" side_tool="true" weight="0.19429025" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -790,7 +840,8 @@
     <MESSAGE value="adding checking currentUser session" />
     <MESSAGE value="change package names" />
     <MESSAGE value="join to live event" />
-    <option name="LAST_COMMIT_MESSAGE" value="join to live event" />
+    <MESSAGE value="added test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,7 +853,7 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="81" />
+      <option name="time" value="89" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -843,20 +894,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/jdk1.8.0_151/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="1008" column="27" lean-forward="true" selection-start-line="1008" selection-start-column="27" selection-end-line="1008" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UtilService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar!/org/json/simple/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -956,6 +993,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -980,13 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -1002,26 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EmerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1053,20 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="119" column="27" lean-forward="true" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1085,13 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1151,23 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1189,13 +1165,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/upComingEvents.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1203,17 +1172,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/service/EventServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EmerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/service/EmerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/service/UserServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/liveevents.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/AuthService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/UpEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>

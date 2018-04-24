@@ -32,18 +32,18 @@ public class User {
         this.lastName = lastName;
         this.dob = dob;
         currentLocation = "test";
-        createdEvents.add(new Event("Cycle challenge", "Fairfield",
-                "Chicago", "Ottumuwa",
-                "This is short discription for own event", "Lorem Ipsum is simply dummy text of " +
-                "the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the" +
-                " 1500s," + " more recently with desktop publishing software like Aldus PageMaker including versions of Lorem ", new Date()));
-
-        Event e = new Event("For the good life", "Washington", "Texas", "San Francisco",
-                "this is short discription for subscribed event",
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" +
-                        "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", new Date());
-        e.getSubscribers().add(this);
-        subscribedEvents.add(e);
+//        createdEvents.add(new Event("Cycle challenge", "Fairfield",
+//                "Chicago", "Ottumuwa",
+//                "This is short discription for own event", "Lorem Ipsum is simply dummy text of " +
+//                "the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the" +
+//                " 1500s," + " more recently with desktop publishing software like Aldus PageMaker including versions of Lorem ", new Date()));
+//
+//        Event e = new Event("For the good life", "Washington", "Texas", "San Francisco",
+//                "this is short discription for subscribed event",
+//                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry" +
+//                        "recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", new Date());
+//        e.getSubscribers().add(this);
+//        subscribedEvents.add(e);
 
     }
 
@@ -66,9 +66,11 @@ public class User {
     public String getFirstName() {
         return firstName;
     }
-    public void changeEmergencyFlag(){
-        this.emergencyFlag ="on";
-        }
+
+    public void changeEmergencyFlag() {
+        this.emergencyFlag = "on";
+    }
+
     public String getEmergencySFlag() {
         return emergencyFlag;
     }
