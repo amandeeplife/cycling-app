@@ -43,6 +43,7 @@ public class EmerService {
             res.put("firstName", u.getFirstName());
             res.put("lastName", u.getLastName());
             res.put("dob", u.getDob());
+            res.put("loc", u.getCurrentLocation());
             results.add(res);
         }
         return results;

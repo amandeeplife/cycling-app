@@ -1,8 +1,10 @@
 package controller;
 
 import com.google.gson.Gson;
+import model.User;
 import org.json.simple.JSONObject;
 import service.EmerService;
+import util.Resource;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -22,6 +24,13 @@ public class EmerController extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+        String currentLoc = request.getParameter("currentLocation");
+        if(currentLoc!=null) {
+            User currentUser = Resource.getCurrentUser();
+            currentUser.setCurrentLocation(currentLoc);
+        }
+        System.out.print(currentLoc);
+
         String eventName = request.getParameter("eventName");
         this.emerService.updateStatus(eventName, "STOPPED");
     }
