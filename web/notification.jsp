@@ -1,13 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Amanuel
-  Date: 4/23/2018
-  Time: 2:23 PM
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,12 +12,12 @@
     <meta name="author" content="">
 
     <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
 
     <!-- Bootstrap Core CSS -->
     <link href="Res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- MetisMenu CSS -->
-    <link href="Res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+    <script src="JavaScript/notifcations.js"></script>
+     <link href="Res/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="Res/dist/css/sb-admin-2.css" rel="stylesheet">
@@ -201,62 +193,51 @@
             </div>
             <!-- /.col-lg-12 -->
         </div>
-        <!-- /.row -->
+        <!-- /.row -->  <div class="col-lg-12">
         <div class="row">
 
-<c:forEach items="${(sessionScope.currentUser).subscribedEvents}" var="subEvent" >
-        <div class="row">
+        <c:forEach items="${sessionScope.AllUser}" var="user">
             <div class="col-lg-4">
-                <div class="panel panel-default">
+
+                <div class="panel panel-danger">
                     <div class="panel-heading">
-                        ${subEvent.tittle} <span style="float: right"> Subscribers : ${fn:length(subEvent.subscribers)}</span>
+                        ${user.firstName}
                     </div>
-                    <!-- /.panel-heading -->
+                    <div>
+                    <br><br>
+                    <div style="width: 20%; margin: auto" >   <img src="https://images.unsplash.com/profile-1462285601040-a9bcbb6514fd?dpr=1&auto=format&fit=crop&w=64&h=64&q=60&cs=tinysrgb&crop=faces&bg=fff">
+                    </div>
+                        <hr>
+
+                        <div style=" margin-left:10px"> Eamil:   ${user.username}</div><hr></div>
+
                     <div class="panel-body">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#${subEvent.tittle}" data-toggle="tab">Home</a>
-                            </li>
-                            <li><a href="#${subEvent.tittle}a" data-toggle="tab">Detail</a>
-                            </li>
-                            <li><a href="${subEvent.tittle}b" data-toggle="tab">Routing</a>
-                            </li>
+                        <p> No of Event/s Created :  ${fn:length(user.createdEvents)}</p>
+                        <p> No of Event/s Subscribed :  ${fn:length(user.subscribedEvents)}</p>
+                        <c:forEach items="${user.createdEvents}" var="ev">
+                          Title :   ${ev.tittle}<br>
+                            Short Discription :   ${ev.shortdiscription} <br>
 
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane fade in active" id="${subEvent.tittle}">
-                                <h4>Home Tab</h4>
-                            <p>${subEvent.shortdiscription}</p>
-                             </div>
-                            <div class="tab-pane fade" id="${subEvent.tittle}a">
-                                <h4>Detail</h4>
-                            <p>${subEvent.longDescription}</p>
-                            </div>
-                            <div class="tab-pane fade" id="${subEvent.tittle}b">
-                                <h4>Routing Points</h4>
-                                   From ${subEvent.from} Through ${subEvent.via} and Finaly to ${subEvent.to}
+                        </c:forEach>
+                     </div>
+                    <div class="panel-footer">
 
 
-                             </div>
 
-                        </div>
                     </div>
-                    <!-- /.panel-body -->
-                </div>
-                <!-- /.panel -->
+
             </div>
-            <!-- /.col-lg-6 -->
+            <!-- /.col-lg-4 -->
 
-            <!-- /.col-lg-6 -->
+
         </div>
-
-</c:forEach>
-        <!-- /.row -->
-
-        <!-- /.row -->
-
+        </c:forEach>
+            </div></div>
+    </div>
+</div>
+            </div>
+            <!-- /.col-lg-12 -->
+        </div>
         <!-- /.row -->
     </div>
     <!-- /#page-wrapper -->
@@ -265,16 +246,16 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="Res/vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="Res/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="Res/vendor/metisMenu/metisMenu.min.js"></script>
+<script src="../vendor/metisMenu/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="Res/dist/js/sb-admin-2.js"></script>
+<script src="../dist/js/sb-admin-2.js"></script>
 
 </body>
 

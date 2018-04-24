@@ -37,6 +37,7 @@ public class AuthService {
             List<User> users = userService.getAllUsers();
             if (user != null) {
                 request.getSession().setAttribute("currentUser", user);
+
                 Resource.setCurrentUser(user);
                 response.sendRedirect("welcome-dashboard.jsp");
                 return;
