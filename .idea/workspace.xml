@@ -8,353 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="46a7149e-f649-4d13-93c8-7bd394ac764b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/JavaScript/createEvent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/JavaScript/dashboard.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/data/flot-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/data/morris-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/css/sb-admin-2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/css/sb-admin-2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/js/sb-admin-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/dist/js/sb-admin-2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/js/sb-admin-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/sb-admin-2.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/loginPage/indexPage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/loginPage/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/blank.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/flot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/forms.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/icons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/panels-wells.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/pages/typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap-social/bootstrap-social.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-plugins/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables-responsive/dataTables.responsive.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.foundation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.foundation.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.jqueryui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.material.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.material.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.semanticui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.semanticui.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.uikit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/dataTables.uikit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/css/jquery.dataTables_themeroller.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/Sorting icons.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.foundation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.foundation.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.jqueryui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.material.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.material.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.semanticui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.semanticui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.uikit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/dataTables.uikit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.dataTables.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/datatables/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot-tooltip/jquery.flot.tooltip.source.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/excanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/excanvas.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.colorhelpers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.canvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.categories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.crosshair.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.errorbars.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.fillbetween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.navigate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.pie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.selection.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.stack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.symbol.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.threshold.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.flot.time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/flot/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/extras.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/screen-reader.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/spinning.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_extras.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_spinning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/metisMenu/metisMenu.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/morrisjs/morris.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/raphael/raphael.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/Res/vendor/raphael/raphael.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/createEvent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/createEvent.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/liveevents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/liveevents.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/welcome-dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cycling_war_exploded/welcome-dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/MapFiles.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/MapFiles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/createEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/createEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/emergencyFlag.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/emergencyFlag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/googleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/googleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/manageEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/manageEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/notifcations.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/notifcations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/JavaScript/upComingEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/upComingEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/data/flot-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/data/flot-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/data/morris-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/data/morris-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/dist/css/sb-admin-2.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/dist/css/sb-admin-2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/dist/css/sb-admin-2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/dist/css/sb-admin-2.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/dist/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/dist/js/sb-admin-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/dist/js/sb-admin-2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/dist/js/sb-admin-2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/js/sb-admin-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/js/sb-admin-2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/less/sb-admin-2.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/less/sb-admin-2.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/loginPage/indexPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/loginPage/indexPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/loginPage/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/loginPage/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/flot.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/flot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/forms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/morris.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/morris.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/notifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/panels-wells.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/panels-wells.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/pages/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/pages/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap-social/bootstrap-social.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap-social/bootstrap-social.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap-social/bootstrap-social.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap-social/bootstrap-social.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap-social/bootstrap-social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap-social/bootstrap-social.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-plugins/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-plugins/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-plugins/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-plugins/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-plugins/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-responsive/dataTables.responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-responsive/dataTables.responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-responsive/dataTables.responsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-responsive/dataTables.responsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables-responsive/dataTables.responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.bootstrap4.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.bootstrap4.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.foundation.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.foundation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.foundation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.foundation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.material.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.material.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.material.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.material.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.semanticui.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.semanticui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.semanticui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.uikit.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.uikit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/dataTables.uikit.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/dataTables.uikit.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/jquery.dataTables.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/jquery.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/jquery.dataTables.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/css/jquery.dataTables_themeroller.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/Sorting icons.psd" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/Sorting icons.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/sort_asc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/sort_asc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/sort_asc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/sort_both.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/sort_both.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/sort_desc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/images/sort_desc_disabled.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/images/sort_desc_disabled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.bootstrap4.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.bootstrap4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.foundation.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.foundation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.foundation.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.foundation.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.jqueryui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.jqueryui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.material.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.material.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.material.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.semanticui.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.semanticui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.semanticui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.uikit.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.uikit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/dataTables.uikit.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/dataTables.uikit.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/jquery.dataTables.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/datatables/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/datatables/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot-tooltip/jquery.flot.tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot-tooltip/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot-tooltip/jquery.flot.tooltip.source.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/excanvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/excanvas.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.colorhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.colorhelpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.canvas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.categories.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.categories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.crosshair.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.crosshair.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.errorbars.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.errorbars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.fillbetween.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.fillbetween.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.image.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.navigate.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.navigate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.pie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.resize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.selection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.stack.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.stack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.symbol.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.threshold.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.threshold.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.flot.time.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.flot.time.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/flot/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/flot/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/animated.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/extras.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/extras.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/larger.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/list.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/spinning.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/spinning.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/stacked.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_extras.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/metisMenu/metisMenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/metisMenu/metisMenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/metisMenu/metisMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/metisMenu/metisMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/metisMenu/metisMenu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/metisMenu/metisMenu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/metisMenu/metisMenu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/metisMenu/metisMenu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/morrisjs/morris.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/morrisjs/morris.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/morrisjs/morris.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/morrisjs/morris.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/morrisjs/morris.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/morrisjs/morris.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/raphael/raphael.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/raphael/raphael.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Res/vendor/raphael/raphael.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/res/vendor/raphael/raphael.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Style/createEvent.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/createEvent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/bootstrap3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/createEvent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/createEvent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/events.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/events.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/liveevents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/liveevents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/notification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/notification.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/subscribedEvents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/subscribedEvents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/upComingEvents.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/upComingEvents.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/userInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/viewEvent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/viewEvent.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/welcome-dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/welcome-dashboard.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -406,8 +64,8 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="298">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -645,19 +303,6 @@
               <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cycling-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cycling-app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -978,7 +623,7 @@
       <workItem from="1524499276666" duration="4217000" />
       <workItem from="1524508025170" duration="19509000" />
       <workItem from="1524581973965" duration="8924000" />
-      <workItem from="1524596007513" duration="9039000" />
+      <workItem from="1524596007513" duration="9365000" />
     </task>
     <task id="LOCAL-00001" summary="Front End for Event Creating, Listing Events">
       <created>1524370655680</created>
@@ -1148,11 +793,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524605691225</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="change package names">
+      <created>1524606888362</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1524606888362</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105909000" />
+    <option name="totallyTimeSpent" value="106235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-11" width="1311" height="780" extended-state="6" />
@@ -1169,7 +821,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5033408" side_tool="true" weight="0.17446472" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" visible="true" weight="0.3625" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960348" visible="true" weight="0.3625" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3265625" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -1179,7 +831,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28125" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.328125" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.1927042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4953125" visible="true" weight="0.1927042" />
       <window_info id="Web" order="2" sideWeight="0.5046875" side_tool="true" weight="0.19429025" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1272,7 +924,8 @@
     <MESSAGE value="almost latest" />
     <MESSAGE value="sorting upcoming events" />
     <MESSAGE value="adding checking currentUser session" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding checking currentUser session" />
+    <MESSAGE value="change package names" />
+    <option name="LAST_COMMIT_MESSAGE" value="change package names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1719,8 +1372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="298">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
