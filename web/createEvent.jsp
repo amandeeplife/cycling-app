@@ -19,6 +19,11 @@
 
 </head>
 <body>
+<%
+    if (request.getSession().getAttribute("currentUser") == null) {
+        response.sendRedirect("login.jsp");
+    }
+%>
 <div id="map"></div>
 <div id="right-panel">
     <div>

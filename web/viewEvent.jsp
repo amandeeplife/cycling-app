@@ -33,7 +33,11 @@
 </head>
 
 <body>
-
+<%
+    if (request.getSession().getAttribute("currentUser") == null) {
+        response.sendRedirect("login.jsp");
+    }
+%>
 <div id="wrapper">
 
     <!-- Navigation -->
