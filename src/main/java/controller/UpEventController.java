@@ -1,6 +1,5 @@
 package controller;
 
-import model.User;
 import org.json.simple.JSONObject;
 import service.EventService;
 
