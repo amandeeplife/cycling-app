@@ -4,10 +4,18 @@ $(document).ready(function () {
 
     } );
 
+setInterval(function () {
+    navigator.geolocation.getCurrentPosition(function(position){
+        console.log(position)
+        address = "Latt" +position.coords.latitude+" \nLang :"+ position.coords.longitude;
 
-
-
-
+        //Updating Currnet tLocation
+        $.post("/emergency", {
+            currentLocation: address})
+            .done(function (data) {
+                console.log("Successful");
+            })})
+},2000)
 
 });
 function controllStatus(data){
