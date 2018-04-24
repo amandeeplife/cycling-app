@@ -40,6 +40,7 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="js/upComingEvent.js" type="application/javascript"></script>
     <![endif]-->
 
 </head>
@@ -69,10 +70,9 @@
         <ul class="nav navbar-top-links navbar-right">
 
 
-
             <!-- /.dropdown -->
             <li class="dropdown">
-                <a id ="notifcationIcon" class="dropdown-toggle"  data-toggle="dropdown" href="#">
+                <a id="notifcationIcon" class="dropdown-toggle" data-toggle="dropdown" href="#">
                     <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-alerts">
@@ -193,7 +193,6 @@
                     </li>
 
 
-
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
@@ -237,7 +236,7 @@
                                             <td>${event.from}</td>
                                             <td>${event.via}</td>
                                             <td>${event.to}</td>
-                                            <%--<td>${${fn:length(event.subscribes)}}</td>--%>
+                                                <%--<td>${${fn:length(event.subscribes)}}</td>--%>
                                             <td>${event.description}</td>
                                             <td>
                                                 <button class="btn btn-success" tittle="${event.tittle}">

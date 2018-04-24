@@ -233,6 +233,11 @@
                                 <p> ${event.longDescription}</p>
                             </div>
                         </div>
+                        <td>
+                            <button class="btn btn-success" tittle="${event.tittle}">
+                                Participate
+                            </button>
+                        </td>
                     </li>
 
                     </c:forEach>
