@@ -15,6 +15,7 @@ public class User {
     private String password;
     private String firstName;
     private String lastName;
+    private String currentLocation;
     public String emergencyFlag;
     private Date dob;
     private List<Event> createdEvents = new LinkedList<>();
@@ -44,6 +45,9 @@ public class User {
 
     public String getUsername() {
         return username;
+    }
+    public String getCurrentLocation() {
+        return this.currentLocation;
     }
 
     public String getPassword() {
