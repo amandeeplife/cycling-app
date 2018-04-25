@@ -73,7 +73,7 @@
                                     <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
-                    </li>
+                        </a>  </li>
                     <li class="divider"></li>
                     <li>
                         <a href="#">

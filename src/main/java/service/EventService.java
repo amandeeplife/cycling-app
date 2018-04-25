@@ -4,6 +4,7 @@ import model.Event;
 import model.EventStatus;
 import model.User;
 import org.json.simple.JSONObject;
+import util.DateComparator;
 import util.Resource;
 
 import java.util.ArrayList;
@@ -47,7 +48,8 @@ public class EventService {
                 events.add(e);
             }
         }
-        Collections.sort(events);
+
+        events.sort(new DateComparator());
         return events;
     }
 
@@ -110,6 +112,7 @@ public class EventService {
             res.put("to", event.getTo());
             res.put("shortDescription", event.getShortdiscription());
             res.put("longDescription", event.getLongDescription());
+            res.put("subscribersCount", event.getSubscribers().size());
             results.add(res);
         }
         return results;

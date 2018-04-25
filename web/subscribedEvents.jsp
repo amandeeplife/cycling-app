@@ -207,52 +207,52 @@
         <div class="row">
 
             <c:forEach items="${eventList}" var="event">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                    ${event.tittle} <span
-                                    style="float: right"> Subscribers : ${fn:length(event.subscribers)}</span>
-                            </div>
-                            <!-- /.panel-heading -->
-                            <div class="panel-body">
-                                <!-- Nav tabs -->
-                                <ul class="nav nav-tabs">
-                                    <li class="active"><a href="#${event.tittle}" data-toggle="tab">Home</a>
-                                    </li>
-                                    <li><a href="#${event.tittle}a" data-toggle="tab">Detail</a>
-                                    </li>
-                                    <li><a href="${event.tittle}b" data-toggle="tab">Routing</a>
-                                    </li>
 
-                                </ul>
 
-                                <!-- Tab panes -->
-                                <div class="tab-content">
-                                    <div class="tab-pane fade in active" id="${event.tittle}">
-                                        <h4>Home Tab</h4>
-                                        <p>${event.shortdiscription}</p>
-                                    </div>
-                                    <div class="tab-pane fade" id="${event.tittle}a">
-                                        <h4>Detail</h4>
-                                        <p>${event.longDescription}</p>
-                                    </div>
-                                    <div class="tab-pane fade" id="${event.tittle}b">
-                                        <h4>Routing Points</h4>
-                                        From ${event.from} Through ${event.via} and Finaly to ${event.to}
 
-                                    </div>
 
-                                </div>
-                            </div>
-                            <!-- /.panel-body -->
+                <div class="col-lg-4">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                                ${event.tittle}
                         </div>
-                        <!-- /.panel -->
-                    </div>
-                    <!-- /.col-lg-6 -->
+                        <div>
+                            <br><br>
 
-                    <!-- /.col-lg-6 -->
+
+                            <div> <h4 style="margin-left: 10px; font-style: italic; color:darkslategrey"> ${event.tittle} </h4>  <div style=" float: right; margin-right:10px"> Total Subscribers   ${event.subscribersCount}</div><hr></div>
+                        </div>
+                        <div class="panel-body">
+                            <p> Summary : ${event.longDescription}</p>
+
+                            <c:forEach items="${user.createdEvents}" var="ev">
+                                Title :   ${ev.tittle}<br>
+                                Short Discription :   ${ev.shortdiscription} <br>
+
+                            </c:forEach>
+                        </div>
+                        <div class="panel-footer">
+
+                        Starting Date:    ${event.startingDate}
+
+                        </div>
+
+                    </div>
+                    <!-- /.col-lg-4 -->
+
+
                 </div>
+
+
+
+
+
+
+
+
+
+
 
             </c:forEach>
             <!-- /.row -->

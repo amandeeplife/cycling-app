@@ -205,7 +205,7 @@
         </div>
         <!-- /.row -->  <div class="col-lg-12">
         <div class="row">
-
+<!--Showing User Informations
             <c:forEach items="${requestScope.userList}" var="user">
                 <div class="col-lg-4">
 
@@ -222,8 +222,9 @@
                             <div style=" margin-left:10px"> Eamil:   ${user.email}</div><hr></div>
 
                         <div class="panel-body">
-                            <p> No of Event/s Created :  ${fn:length(user.createdEvents)} ${user.createdEvents.size}</p>
-                            <p> No of Event/s Subscribed :  ${fn:length(user.subscribedEvents)}</p>
+                            <p> Name : ${user.firstName} ${user.lastName}</p>
+                            <p> Date of Birth : ${user.dob}</p>
+
                             <c:forEach items="${user.createdEvents}" var="ev">
                                 Title :   ${ev.tittle}<br>
                                 Short Discription :   ${ev.shortdiscription} <br>

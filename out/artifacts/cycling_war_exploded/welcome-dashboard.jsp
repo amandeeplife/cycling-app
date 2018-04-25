@@ -99,7 +99,7 @@
                                     <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
-                    </li>
+                        </a> </li>
                     <li class="divider"></li>
                     <li>
                         <a href="#">
@@ -232,8 +232,10 @@
             <div id="ownEvents" class="row">
 
                 <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
 
-                <div class="col-lg-4 col-m d-8">
+
                     <button onclick="emergencyHandler('${event.tittle}' )" class="flag btn btn-danger"
                             data-title='" + ${event.tittle} + "' style="float: right" data-toggle="modal"
                             data-target="#delete">
@@ -270,7 +272,7 @@
                             <div class="clearfix"></div>
                             <br>
                         </div>
-                        <input type="button" id="startButton" style="border-radius: unset" value="Start Ride"
+                        <input type="button" onclick="manageEvent('${event.tittle}')" id="startButton" style="border-radius: unset" value="Start Ride"
                                class="btn btn-success btn-lg btn-block" data-title='${event.tittle}'>
 
                         <input type="button" id="finishButton" style="border-radius: unset" value="Finish Ride"
@@ -279,8 +281,8 @@
 
                 </div>
 
-            </div>
-            </c:forEach>
+
+            </c:forEach></div>
         </div>
         <!-- /.row -w->
                     <!-- /.panel-heading -->
