@@ -205,7 +205,7 @@
         </div>
         <!-- /.row -->  <div class="col-lg-12">
         <div class="row">
-<!--Showing User Informations
+<!--Showing User Informations -->
             <c:forEach items="${requestScope.userList}" var="user">
                 <div class="col-lg-4">
 

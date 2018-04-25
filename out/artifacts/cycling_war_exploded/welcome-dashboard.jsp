@@ -230,7 +230,7 @@
             </div>
             <!-- /.row -->
             <div id="ownEvents" class="row">
-
+                <!-- Show The Events that the current User Admins
                 <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
