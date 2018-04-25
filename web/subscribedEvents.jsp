@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Subscribed Event List</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -66,10 +66,9 @@
         <ul class="nav navbar-top-links navbar-right">
 
 
-
             <!-- /.dropdown -->
             <li class="dropdown">
-                <a id ="notifcationIcon" class="dropdown-toggle"  data-toggle="dropdown" href="#">
+                <a id="notifcationIcon" class="dropdown-toggle" data-toggle="dropdown" href="#">
                     <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-alerts">
@@ -170,7 +169,7 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="subscribedEvents.jsp">Subscribed Events</a>
+                                <a href="/subscribedList">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>
@@ -190,7 +189,6 @@
                     </li>
 
 
-
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
@@ -201,72 +199,73 @@
     <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Panels and Wells</h1>
+                <h1 class="page-header">Subscribed Event List</h1>
             </div>
             <!-- /.col-lg-12 -->
         </div>
         <!-- /.row -->
         <div class="row">
 
-<c:forEach items="${(sessionScope.currentUser).subscribedEvents}" var="subEvent" >
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        ${subEvent.tittle} <span style="float: right"> Subscribers : ${fn:length(subEvent.subscribers)}</span>
-                    </div>
-                    <!-- /.panel-heading -->
-                    <div class="panel-body">
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#${subEvent.tittle}" data-toggle="tab">Home</a>
-                            </li>
-                            <li><a href="#${subEvent.tittle}a" data-toggle="tab">Detail</a>
-                            </li>
-                            <li><a href="${subEvent.tittle}b" data-toggle="tab">Routing</a>
-                            </li>
-
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane fade in active" id="${subEvent.tittle}">
-                                <h4>Home Tab</h4>
-                            <p>${subEvent.shortdiscription}</p>
-                             </div>
-                            <div class="tab-pane fade" id="${subEvent.tittle}a">
-                                <h4>Detail</h4>
-                            <p>${subEvent.longDescription}</p>
+            <c:forEach items="${eventList}" var="event">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                    ${event.tittle} <span
+                                    style="float: right"> Subscribers : ${fn:length(event.subscribers)}</span>
                             </div>
-                            <div class="tab-pane fade" id="${subEvent.tittle}b">
-                                <h4>Routing Points</h4>
-                                   From ${subEvent.from} Through ${subEvent.via} and Finaly to ${subEvent.to}
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                                <!-- Nav tabs -->
+                                <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#${event.tittle}" data-toggle="tab">Home</a>
+                                    </li>
+                                    <li><a href="#${event.tittle}a" data-toggle="tab">Detail</a>
+                                    </li>
+                                    <li><a href="${event.tittle}b" data-toggle="tab">Routing</a>
+                                    </li>
 
+                                </ul>
 
-                             </div>
+                                <!-- Tab panes -->
+                                <div class="tab-content">
+                                    <div class="tab-pane fade in active" id="${event.tittle}">
+                                        <h4>Home Tab</h4>
+                                        <p>${event.shortdiscription}</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="${event.tittle}a">
+                                        <h4>Detail</h4>
+                                        <p>${event.longDescription}</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="${event.tittle}b">
+                                        <h4>Routing Points</h4>
+                                        From ${event.from} Through ${event.via} and Finaly to ${event.to}
 
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- /.panel-body -->
                         </div>
+                        <!-- /.panel -->
                     </div>
-                    <!-- /.panel-body -->
+                    <!-- /.col-lg-6 -->
+
+                    <!-- /.col-lg-6 -->
                 </div>
-                <!-- /.panel -->
-            </div>
-            <!-- /.col-lg-6 -->
 
-            <!-- /.col-lg-6 -->
+            </c:forEach>
+            <!-- /.row -->
+
+            <!-- /.row -->
+
+            <!-- /.row -->
         </div>
+        <!-- /#page-wrapper -->
 
-</c:forEach>
-        <!-- /.row -->
-
-        <!-- /.row -->
-
-        <!-- /.row -->
     </div>
-    <!-- /#page-wrapper -->
-
+    <!-- /#wrapper -->
 </div>
-<!-- /#wrapper -->
 
 <!-- jQuery -->
 <script src="res/vendor/jquery/jquery.min.js"></script>

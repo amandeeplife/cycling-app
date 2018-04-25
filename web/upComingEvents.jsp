@@ -18,7 +18,7 @@
     <meta name="author" content="">
 
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Upcoming events</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -173,7 +173,7 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="subscribedEvents.jsp">Subscribed Events</a>
+                                <a href="/subscribedList">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>

@@ -12,7 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/dashboard.js" type="application/javascript"></script>
     <script src="js/manageEvent.js" type="application/javascript"></script>
-    <title>Title</title>
+    <title>Home page</title>
 </head>
     <%
     if (request.getSession().getAttribute("currentUser") == null) {
@@ -188,7 +188,7 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="subscribedEvents.jsp">Subscribed Events</a>
+                                <a href="/subscribedList">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>

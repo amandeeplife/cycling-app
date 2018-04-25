@@ -10,9 +10,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/dashboard.js"></script>
+    <script src="js/liveEvent.js" type="application/javascript"></script>
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Live Event list</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -77,7 +77,6 @@
                                     <span class="pull-right text-muted small">4 minutes ago</span>
                                 </div>
                             </a>
-                    </li>
                     <li class="divider"></li>
                     <li>
                         <a href="#">
@@ -166,7 +165,7 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="subscribedEvents.jsp">Subscribed Events</a>
+                                <a href="/subscribedList">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>
@@ -208,7 +207,7 @@
             <!-- /.panel-heading -->
             <div class="panel-body">
                 <ul class="timeline">
-                    <c:forEach items="${requestScope.eventList}" var="event">
+                    <c:forEach items="${eventList}" var="event">
 
                         <li>
                             <div class="timeline-badge"><i class="fa fa-check"></i>
@@ -225,11 +224,11 @@
                                 <div class="timeline-body">
                                     <p> ${event.longDescription}</p>
                                 </div>
-                                <td>
+                                <div>
                                     <button class="btn btn-success" tittle="${event.tittle}">
                                         Participate
                                     </button>
-                                </td>
+                                </div>
                             </div>
                         </li>
 

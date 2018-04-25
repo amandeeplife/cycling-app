@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Users information</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -165,7 +165,7 @@
                         <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Events <span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="subscribedEvents.jsp">Subscribed Events</a>
+                                <a href="/subscribedList">Subscribed Events</a>
                             </li>
                             <li>
                                 <a href="/upcomingEvents">Upcoming Events</a>
@@ -256,16 +256,16 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="res/vendor/jquery/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="res/vendor/bootstrap/js/bootstrap.min.js"></script>
 
 <!-- Metis Menu Plugin JavaScript -->
-<script src="../vendor/metisMenu/metisMenu.min.js"></script>
+<script src="res/vendor/metisMenu/metisMenu.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="../dist/js/sb-admin-2.js"></script>
+<script src="res/dist/js/sb-admin-2.js"></script>
 
 </body>
 

@@ -96,4 +96,22 @@ public class EventService {
         }
         return event;
     }
+
+    public List<JSONObject> getAllSubscribedEvents() {
+
+        List<JSONObject> results = new ArrayList<>();
+        User currentUser = Resource.getCurrentUser();
+        for (Event event : currentUser.getSubscribedEvents()) {
+            JSONObject res = new JSONObject();
+            res.put("tittle", event.getTittle());
+            res.put("startingDate", event.getStartingDate());
+            res.put("from", event.getFrom());
+            res.put("via", event.getVia());
+            res.put("to", event.getTo());
+            res.put("shortDescription", event.getShortdiscription());
+            res.put("longDescription", event.getLongDescription());
+            results.add(res);
+        }
+        return results;
+    }
 }
