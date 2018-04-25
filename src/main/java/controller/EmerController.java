@@ -1,5 +1,11 @@
 package controller;
 
+/*
+ Created by: Bakhodir, Amenuel.
+
+ Purpose: Catches requests with URL = "/emergency" that come from front end.
+ */
+
 import com.google.gson.Gson;
 import model.Event;
 import model.EventStatus;
@@ -26,24 +32,26 @@ public class EmerController extends HttpServlet {
         this.emerService = new EmerService();
     }
 
+    // doPost method is to change the status of event to "PENDING"
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         String currentLoc = request.getParameter("currentLocation");
-        if(currentLoc!=null) {
+        if (currentLoc != null) {
             User currentUser = Resource.getCurrentUser();
             currentUser.setCurrentLocation(currentLoc);
         }
 
-            if(request.getParameter("emergencyFlag")!=null){
-                EventService eventService = new EventService();
-                Event event  = eventService.findByName(request.getParameter("emergencyFlag"));
-                event.setStatus(EventStatus.PENDING);
-                for(User user :event.getSubscribers()){
-                    user.changeEmergencyFlag();
-                }
-                System.out.println("Emergncy Flag"+request.getParameter("emergencyFlag"));
+        if (request.getParameter("emergencyFlag") != null) {
+            EventService eventService = new EventService();
+            Event event = eventService.findByName(request.getParameter("emergencyFlag"));
+            event.setStatus(EventStatus.PENDING);
+            for (User user : event.getSubscribers()) {
+                user.changeEmergencyFlag();
             }
+            System.out.println("Emergncy Flag" + request.getParameter("emergencyFlag"));
+        }
     }
 
+    // doGet method to all users ask if there is something new
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<JSONObject> jsonObjects = this.emerService.notifyEvent();
         String json = new Gson().toJson(jsonObjects);

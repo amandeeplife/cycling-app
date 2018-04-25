@@ -1,19 +1,13 @@
 package controller;
+/*
+ Created by: Bakhodir, Amenuel.
 
-import javax.servlet.ServletException;
+ Purpose: Catches requests with URL = "/dashboard" that come from front end.
+ */
+
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 @WebServlet(name = "/dashboard")
 public class DashController extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
-
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
 }

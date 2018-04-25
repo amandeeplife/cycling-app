@@ -26,6 +26,7 @@ public class LoginController extends HttpServlet {
         authService = new AuthService();
     }
 
+    // doPost that checks the user if it exists in the system
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         this.authService.login(request, response);
     }

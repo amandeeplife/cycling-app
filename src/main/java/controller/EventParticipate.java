@@ -1,4 +1,9 @@
 package controller;
+/*
+ Created by: Bakhodir, Amenuel.
+
+ Purpose: Catches requests with URL = "/emergency" that come from front end.
+ */
 
 import service.EventService;
 
@@ -18,11 +23,7 @@ public class EventParticipate extends HttpServlet {
         this.eventService = new EventService();
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) {
-
-    }
-
+    // doPost method is to make participated user the specific event
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String tittle = req.getParameter("tittle");
@@ -30,10 +31,5 @@ public class EventParticipate extends HttpServlet {
         resp.setContentType("application/json");
         resp.setCharacterEncoding("UTF-8");
         resp.getWriter().write("success");
-    }
-
-    @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
     }
 }

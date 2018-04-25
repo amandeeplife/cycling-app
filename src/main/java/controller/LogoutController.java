@@ -1,5 +1,11 @@
 package controller;
 
+/*
+ Created by: Bakhodir, Amenuel.
+
+ Purpose: Catches requests with URL = "/logout" that come from front end
+ */
+
 import service.AuthService;
 
 import javax.servlet.ServletException;
@@ -21,6 +27,7 @@ public class LogoutController extends HttpServlet {
         this.authService = new AuthService();
     }
 
+    // doGet that provides logout function
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         this.authService.logOut(req, resp);

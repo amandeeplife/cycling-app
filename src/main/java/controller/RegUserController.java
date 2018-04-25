@@ -1,5 +1,11 @@
 package controller;
 
+/*
+ Created by: Amenuel, Bakhodir.
+
+ Purpose: Catches requests with URL = "/register" that come from front end
+ */
+
 import model.User;
 import service.AuthService;
 import util.Util;
@@ -25,11 +31,8 @@ public class RegUserController extends HttpServlet {
         this.authService = new AuthService();
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-    }
 
+    // doPost method is to register a new user
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String firstName = req.getParameter("firstName");

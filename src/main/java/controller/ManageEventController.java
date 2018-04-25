@@ -1,5 +1,11 @@
 package controller;
 
+/*
+ Created by: Bakhodir, Amenuel.
+
+ Purpose: Catches requests with URL = "/manageEvent" that come from front end
+ */
+
 import service.EmerService;
 
 import javax.servlet.ServletException;
@@ -18,11 +24,7 @@ public class ManageEventController extends HttpServlet {
         this.emerService = new EmerService();
     }
 
-    @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
-    }
-
+    // doPost method is to update status type of event
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
         String eventName = request.getParameter("eventName");

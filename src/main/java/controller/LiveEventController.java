@@ -1,6 +1,11 @@
 package controller;
 
-import model.User;
+/*
+ Created by: Bakhodir, Amenuel.
+
+ Purpose: Catches requests with URL = "/liveEvents" that come from front end.
+ */
+
 import org.json.simple.JSONObject;
 import service.EventService;
 
@@ -22,15 +27,11 @@ public class LiveEventController extends HttpServlet {
         eventService = new EventService();
     }
 
+    // doGet method is to get list of events and return it back to front end
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<JSONObject> jsonObjects = this.eventService.getAllLiveEvents();
         req.setAttribute("eventList", jsonObjects);
         req.getRequestDispatcher("liveevents.jsp").forward(req, resp);
-    }
-
-    @Override
-    protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doPut(req, resp);
     }
 }
