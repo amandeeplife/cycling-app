@@ -1,3 +1,5 @@
+
+//Participate Button, Send Request for the Current User to be subscribed to the current Event he/She Chose
 $(document).ready(function () {
     $(":button").on("click", function (event) {
         const tittle = $(this).attr("tittle");

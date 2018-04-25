@@ -1,10 +1,8 @@
 $(document).ready(function () {
 
-    $("#controllButton").on('click', $("#controllButton"), function (){
-
-    } );
 
 
+//Checking if there is Notification and Updating the Current Location to Server
 setInterval(function () {
     manageNotification();
 },2000)
@@ -24,7 +22,7 @@ setInterval(function () {
 
 });
 
-
+//Gets Current Location and Updates
 function manageNotification(){
 
     navigator.geolocation.getCurrentPosition(function(position){
@@ -46,6 +44,7 @@ function manageNotification(){
             "error":errorEmergency
         })
     })
+    //On Success append Html Element of The Current Users that are subscribed to the same Event with the currnet Users.
     function  successEmergncy(data){
         console.log(data+"data" +this.emergencyFlag )
         if(this.emergencyFlag =="on") {
@@ -86,6 +85,7 @@ function manageNotification(){
         console.log("error message")
 
     }  }
+// Start/Stop the Event
 
 function controllStatus(data){
     var controllButton = $("#controllButton");
@@ -107,6 +107,7 @@ function updateEventStatus(eventName, statusType) {
         console.log("Successful");
     });
 }
+//Emergency Flag Handler
 function emergencyHandler(data) {
     var title = data;
     console.log(data)

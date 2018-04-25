@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+// Fetch Data for Google Map Place Selections
     $.ajax({
         "url":"MapFiles.json",
         "type": "get",

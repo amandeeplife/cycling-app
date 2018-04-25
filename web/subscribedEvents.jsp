@@ -205,22 +205,14 @@
         </div>
         <!-- /.row -->
         <div class="row">
-
+    <!-- Showing Current User Subscribed Events -->
             <c:forEach items="${eventList}" var="event">
-
-
-
-
-                <div class="col-lg-4">
-
+              <div class="col-lg-4">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                                ${event.tittle}
+                        <div class="panel-heading">${event.tittle}
                         </div>
                         <div>
                             <br><br>
-
-
                             <div> <h4 style="margin-left: 10px; font-style: italic; color:darkslategrey"> ${event.tittle} </h4>  <div style=" float: right; margin-right:10px"> Total Subscribers   ${event.subscribersCount}</div><hr></div>
                         </div>
                         <div class="panel-body">
@@ -244,22 +236,7 @@
 
                 </div>
 
-
-
-
-
-
-
-
-
-
-
             </c:forEach>
-            <!-- /.row -->
-
-            <!-- /.row -->
-
-            <!-- /.row -->
         </div>
         <!-- /#page-wrapper -->
 

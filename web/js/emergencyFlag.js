@@ -1,14 +1,5 @@
 $(document).ready(function () {
 
-    $("#controllButton").on('click', $("#controllButton"), function (){
-
-    } );
-
-
-
-
-
-
 });
 function controllStatus(data){
     var controllButton = $("#controllButton");
