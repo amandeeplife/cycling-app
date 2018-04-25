@@ -22,28 +22,28 @@ import java.text.ParseException;
 public class EventController extends HttpServlet {
 
     // doPost method is to create new event
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String userName = request.getParameter("username");
         UserService userService = new UserService();
         User user = userService.getUserByName(userName);
         Event ev = new Event();
         ev.setTittle(request.getParameter("eventTitle"));
-        ev.setFrom(request.getParameter("eventTitle"));
+        ev.setFrom(request.getParameter("eventStart"));
         ev.setShortdiscription(request.getParameter("eventShortSummary"));
         ev.setLongDescription(request.getParameter("eventSummary"));
         ev.setFrom(request.getParameter("eventStart"));
         ev.setTo(request.getParameter("eventEnd"));
         ev.setVia(request.getParameter("eventWayPoints"));
-        user.addEvent(ev);
-        response.sendRedirect("welcome-dashboard.jsp");
+        String page;
         try {
             ev.setStartingDate(Util.parseToDate(request.getParameter("eventDate")));
+            page = "welcome-dashboard.jsp";
         } catch (ParseException e) {
-            e.printStackTrace();
+            page = "createEvent.jsp";
         }
-        user.addEvent(ev);
-         response.sendRedirect("welcome-dashboard.jsp");
-     }
+        user.getCreatedEvents().add(ev);
+        response.sendRedirect(page);
+    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     }

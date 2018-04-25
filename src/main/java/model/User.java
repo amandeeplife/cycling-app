@@ -87,10 +87,6 @@ public class User {
         return createdEvents;
     }
 
-    public void addEvent(Event ev) {
-        this.createdEvents.add(ev);
-    }
-
     public List<Event> getSubscribedEvents() {
         return subscribedEvents;
     }

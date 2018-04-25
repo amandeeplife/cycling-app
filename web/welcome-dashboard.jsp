@@ -7,19 +7,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/dashboard.js" type="application/javascript"></script>
-    <script src="js/manageEvent.js" type="application/javascript"></script>
-    <title>Home page</title>
-</head>
-    <%
-    if (request.getSession().getAttribute("currentUser") == null) {
-        response.sendRedirect("login.jsp");
-    }
-%>
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -27,12 +15,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=""
-    >
+    <meta name="description" content="">
     <meta name="author" content="">
 
 
-    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/dashboard.js" type="application/javascript"></script>
+    <script src="js/manageEvent.js" type="application/javascript"></script>
+    <title>Home page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="res/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +35,7 @@
 
     <!-- Morris Charts CSS -->
     <link href="res/vendor/morrisjs/morris.css" rel="stylesheet">
-    <script src="JavaScript/emergencyFlag.js"></script>
+    <script src="js/emergencyFlag.js"></script>
     <!-- Custom Fonts -->
     <link href="res/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script> <!-- load jquery via CDN -->
@@ -230,7 +220,7 @@
             </div>
             <!-- /.row -->
             <div id="ownEvents" class="row">
-                <!-- Show The Events that the current User Admins
+
                 <c:forEach items="${(sessionScope.currentUser).createdEvents}" var="event" varStatus="loop">
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
