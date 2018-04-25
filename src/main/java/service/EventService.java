@@ -48,8 +48,6 @@ public class EventService {
                 events.add(e);
             }
         }
-
-        events.sort(new DateComparator());
         return events;
     }
 
